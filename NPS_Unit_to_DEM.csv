@@ -1,427 +1,427 @@
-UNIT_CODE,UNIT_NAME,STATE,REGION,DEM_Name,UNIT_TYPE,PARKNAME,Lat,Long
-DENA,Denali National Preserve,AK,AKR,dem_30m_20km,National Preserve,Denali,63.477507,-152.203629
-WRST,Wrangell-St. Elias National Park,AK,AKR,dem_30m_20km,National Park,Wrangell - St Elias,61.069973,-142.434201
-WRST,Wrangell-St. Elias National Preserve,AK,AKR,dem_30m_20km,National Preserve,Wrangell - St Elias,61.925999,-142.836262
-GLBA,Glacier Bay National Park,AK,AKR,dem_30m_20km,National Park,Glacier Bay,58.791402,-136.810818
-GLBA,Glacier Bay National Preserve,AK,AKR,dem_30m_20km,National Preserve,Glacier Bay,59.131341,-138.351429
-KATM,Katmai National Park,AK,AKR,dem_30m_20km,National Park,Katmai,58.562382,-154.978641
-KEFJ,Kenai Fjords National Park,AK,AKR,dem_30m_20km,National Park,Kenai Fjords,59.816149,-150.108107
-LACL,Lake Clark National Preserve,AK,AKR,dem_30m_20km,National Preserve,Lake Clark,60.601497,-154.129751
-NOAT,Noatak National Preserve,AK,AKR,dem_30m_20km,National Preserve,Noatak,68.004212,-159.832717
-BELA,Bering Land Bridge National Preserve,AK,AKR,dem_30m_20km,National Preserve,Bering Land Bridge,65.954628,-164.403866
-ALAG,Alagnak Wild River,AK,AKR,dem_30m_20km,Wild River,Alagnak,59.003066,-156.111907
-SITK,Sitka National Historical Park,AK,AKR,dem_30m_20km,National Historical Park,Sitka,57.047181,-135.315671
-ANIA,Aniakchak National Monument,AK,AKR,dem_30m_20km,National Monument,Aniakchak,56.895443,-158.117809
-CAKR,Cape Krusenstern National Monument,AK,AKR,dem_30m_20km,National Monument,Cape Krusenstern,67.411879,-163.50199
-GAAR,Gates of the Arctic National Park,AK,AKR,dem_30m_20km,National Park,Gates of the Arctic,67.796807,-153.30978
-DENA,Denali National Park,AK,AKR,dem_30m_20km,National Park,Denali,63.341108,-150.734146
-KATM,Katmai National Preserve,AK,AKR,dem_30m_20km,National Preserve,Katmai,59.106646,-155.320051
-KOVA,Kobuk Valley National Park,AK,AKR,dem_30m_20km,National Park,Kobuk Valley,67.353365,-159.198885
-GAAR,Gates of the Arctic National Preserve,AK,AKR,dem_30m_20km,National Preserve,Gates of the Arctic,66.779533,-153.226554
-ANIA,Aniakchak National Preserve,AK,AKR,dem_30m_20km,National Preserve,Aniakchak,56.865032,-157.720824
-YUCH,Yukon-Charley Rivers National Preserve,AK,AKR,dem_30m_20km,National Preserve,Yukon - Charley Rivers,65.089786,-142.798428
-LACL,Lake Clark National Park,AK,AKR,dem_30m_20km,National Park,Lake Clark,60.547142,-153.248668
-KLGO,Klondike Gold Rush National Historical Park,AK,AKR,dem_30m_20km,National Historical Park,Klondike Gold Rush,59.631587,-135.261768
-LIBI,Little Bighorn Battlefield National Monument,MT,IMR,IMR_DEM.TIF,National Monument,Little Bighorn Battlefield,45.565054,-107.418355
-CAVO,Capulin Volcano National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Capulin Volcano,36.781711,-103.971043
-FOBO,Fort Bowie National Historic Site,AZ,IMR,IMR_DEM.TIF,National Historic Site,Fort Bowie,32.149259,-109.451132
-GICL,Gila Cliff Dwellings National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Gila Cliff Dwellings,33.227152,-108.270671
-TUZI,Tuzigoot National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Tuzigoot,34.772963,-112.027907
-YUHO,Yucca House National Monument,CO,IMR,IMR_DEM.TIF,National Monument,Yucca House,37.247789,-108.686127
-TICA,Timpanogos Cave National Monument,UT,IMR,IMR_DEM.TIF,National Monument,Timpanogos Cave,40.440397,-111.709394
-TONT,Tonto National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Tonto,33.648429,-111.113563
-SUCR,Sunset Crater Volcano National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Sunset Crater Volcano,35.371142,-111.510376
-PISP,Pipe Spring National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Pipe Spring,36.862827,-112.739857
-ELMO,El Morro National Monument,NM,IMR,IMR_DEM.TIF,National Monument,El Morro,35.038959,-108.346398
-FOBU,Fossil Butte National Monument,WY,IMR,IMR_DEM.TIF,National Monument,Fossil Butte,41.856343,-110.762471
-HOVE,Hovenweep National Monument,UT,IMR,IMR_DEM.TIF,National Monument,Hovenweep,37.383539,-109.004823
-FOUN,Fort Union National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Fort Union,35.907006,-105.014519
-BRCA,Bryce Canyon National Park,UT,IMR,IMR_DEM.TIF,National Park,Bryce Canyon,37.583898,-112.182711
-JODR,"John D. Rockefeller, Jr., Memorial Parkway",WY,IMR,IMR_DEM.TIF,National Parkway,John D Rockefeller Jr,44.088698,-110.728042
-YELL,Yellowstone National Park,WY,IMR,IMR_DEM.TIF,National Park,Yellowstone,44.596445,-110.547196
-HUTR,Hubbell Trading Post National Historic Site,AZ,IMR,IMR_DEM.TIF,National Historic Site,Hubbell Trading Post,35.707273,-109.559952
-CHAM,Chamizal National Memorial,TX,IMR,IMR_DEM.TIF,National Memorial,Chamizal,31.767296,-106.454401
-NAVA,Navajo National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Navajo,36.685491,-110.55043
-CANY,Canyonlands National Park,UT,IMR,IMR_DEM.TIF,National Park,Canyonlands,38.245142,-109.880112
-RABR,Rainbow Bridge National Monument,UT,IMR,IMR_DEM.TIF,National Monument,Rainbow Bridge,37.077888,-110.96551
-NABR,Natural Bridges National Monument,UT,IMR,IMR_DEM.TIF,National Monument,Natural Bridges,37.604528,-110.002245
-PIMA,Hohokam Pima National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Hohokam Pima,33.187138,-111.919274
-GUMO,Guadalupe Mountains National Park,TX,IMR,IMR_DEM.TIF,National Park,Guadalupe Mountains,31.92301,-104.885535
-CORO,Coronado National Memorial,AZ,IMR,IMR_DEM.TIF,National Memorial,Coronado,31.349003,-110.256157
-GOSP,Golden Spike National Historic Site,UT,IMR,IMR_DEM.TIF,National Historic Site,Golden Spike,41.630996,-112.524289
-MOCA,Montezuma Castle National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Montezuma Castle,34.611021,-111.814793
-BICA,Bighorn Canyon National Recreation Area,WY,IMR,IMR_DEM.TIF,National Recreation Area,Bighorn Canyon,45.289074,-108.144616
-SAND,Sand Creek Massacre National Historic Site,CO,IMR,IMR_DEM.TIF,National Historic Site,Sand Creek Massacre,38.564134,-102.516951
-CARE,Capitol Reef National Park,UT,IMR,IMR_DEM.TIF,National Park,Capitol Reef,38.17732,-111.176404
-SAPU,Salinas Pueblo Missions National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Salinas Pueblo Missions,34.259424,-106.204868
-CAGR,Casa Grande Ruins National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Casa Grande Ruins,32.997026,-111.532538
-CHIR,Chiricahua National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Chiricahua,32.012141,-109.341606
-DETO,Devils Tower National Monument,WY,IMR,IMR_DEM.TIF,National Monument,Devils Tower,44.590646,-104.715634
-CACH,Canyon de Chelly National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Canyon de Chelly,36.094048,-109.338824
-MAPR,Manhattan Project National Historical Park,NM,IMR,IMR_DEM.TIF,National Historical Park,Manhattan Project,35.935395,-99.821133
-WACO,Waco Mammoth National Monument,TX,IMR,IMR_DEM.TIF,National Monument,Waco Mammoth,31.604659,-97.176061
-GLCA,Glen Canyon National Recreation Area,UT,IMR,IMR_DEM.TIF,National Recreation Area,Glen Canyon,37.515554,-110.773602
-BAND,Bandelier National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Bandelier,35.778949,-106.3317
-COLM,Colorado National Monument,CO,IMR,IMR_DEM.TIF,National Monument,Colorado,39.050425,-108.692061
-LYJO,Lyndon B. Johnson National Historical Park,TX,IMR,IMR_DEM.TIF,National Historical Park,Lyndon B Johnson,30.250359,-98.606862
-CAVE,Carlsbad Caverns National Park,NM,IMR,IMR_DEM.TIF,National Park,Carlsbad Caverns,32.140874,-104.552993
-AZRU,Aztec Ruins National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Aztec Ruins,36.836822,-107.999924
-ZION,Zion National Park,UT,IMR,IMR_DEM.TIF,National Park,Zion,37.298237,-113.026442
-PECO,Pecos National Historical Park,NM,IMR,IMR_DEM.TIF,National Historical Park,Pecos,35.541918,-105.681466
-ORPI,Organ Pipe Cactus National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Organ Pipe Cactus,32.035706,-112.857283
-CURE,Curecanti National Recreation Area,CO,IMR,IMR_DEM.TIF,National Recreation Area,Curecanti,38.467792,-107.323999
-DINO,Dinosaur National Monument,CO,IMR,IMR_DEM.TIF,National Monument,Dinosaur,40.507281,-108.933365
-GLAC,Glacier National Park,MT,IMR,IMR_DEM.TIF,National Park,Glacier,48.683296,-113.80032
-SAGU,Saguaro National Park,AZ,IMR,IMR_DEM.TIF,National Park,Saguaro,32.178707,-110.757359
-CHCU,Chaco Culture National Historical Park,NM,IMR,IMR_DEM.TIF,National Historical Park,Chaco Culture,36.039672,-107.955936
-GRKO,Grant-Kohrs Ranch National Historic Site,MT,IMR,IMR_DEM.TIF,National Historic Site,Grant-Kohrs Ranch,46.413752,-112.746693
-GRTE,Grand Teton National Park,WY,IMR,IMR_DEM.TIF,National Park,Grand Teton,43.81816,-110.705488
-CHIC,Chickasaw National Recreation Area,OK,IMR,IMR_DEM.TIF,National Recreation Area,Chickasaw,34.460511,-97.007019
-GRSA,Great Sand Dunes National Preserve,CO,IMR,IMR_DEM.TIF,National Preserve,Great Sand Dunes,37.83361,-105.496716
-GRSA,Great Sand Dunes National Park,CO,IMR,IMR_DEM.TIF,National Park,Great Sand Dunes,37.776553,-105.628888
-BITH,Big Thicket National Preserve,TX,IMR,IMR_DEM.TIF,National Preserve,Big Thicket,30.340875,-94.337233
-RIGR,Rio Grande Wild and Scenic River,TX,IMR,IMR_DEM.TIF,Wild and Scenic River,Rio Grande,29.757749,-102.730435
-BLCA,Black Canyon of the Gunnison National Park,CO,IMR,IMR_DEM.TIF,National Park,Black Canyon of the Gunnison,38.578011,-107.72442
-WACA,Walnut Canyon National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Walnut Canyon,35.165849,-111.501993
-WUPA,Wupatki National Monument,AZ,IMR,IMR_DEM.TIF,National Monument,Wupatki,35.55739,-111.395727
-WABA,Washita Battlefield National Historic Site,OK,IMR,IMR_DEM.TIF,National Historic Site,Washita Battlefield,35.620848,-99.704462
-BIBE,Big Bend National Park,TX,IMR,IMR_DEM.TIF,National Park,Big Bend,29.29738,-103.229435
-CEBR,Cedar Breaks National Monument,UT,IMR,IMR_DEM.TIF,National Monument,Cedar Breaks,37.635405,-112.845158
-FODA,Fort Davis National Historic Site,TX,IMR,IMR_DEM.TIF,National Historic Site,Fort Davis,30.599304,-103.896191
-ARCH,Arches National Park,UT,IMR,IMR_DEM.TIF,National Park,Arches,38.722539,-109.58635
-FOLA,Fort Laramie National Historic Site,WY,IMR,IMR_DEM.TIF,National Historic Site,Fort Laramie,42.203017,-104.545911
-TUMA,Tumacacori National Historical Park,AZ,IMR,IMR_DEM.TIF,National Historical Park,Tumacácori,31.572832,-111.038496
-GRCA,Grand Canyon National Park,AZ,IMR,IMR_DEM.TIF,National Park,Grand Canyon,36.186545,-112.684253
-PAIS,Padre Island National Seashore,TX,IMR,IMR_DEM.TIF,National Seashore,Padre Island,26.705775,-97.359225
-MEVE,Mesa Verde National Park,CO,IMR,IMR_DEM.TIF,National Park,Mesa Verde,37.23905,-108.462404
-VALL,Valles Caldera National Preserve,NM,IMR,IMR_DEM.TIF,National Preserve,Valles Caldera,35.916783,-106.519572
-ROMO,Rocky Mountain National Park,CO,IMR,IMR_DEM.TIF,National Park,Rocky Mountain,40.355466,-105.697308
-FLFO,Florissant Fossil Beds National Monument,CO,IMR,IMR_DEM.TIF,National Monument,Florissant Fossil Beds,38.91292,-105.281825
-AMIS,Amistad National Recreation Area,TX,IMR,IMR_DEM.TIF,National Recreation Area,Amistad,29.477491,-101.09758
-PEFO,Petrified Forest National Park,AZ,IMR,IMR_DEM.TIF,National Park,Petrified Forest,34.983703,-109.787773
-ALFL,Alibates Flint Quarries National Monument,TX,IMR,IMR_DEM.TIF,National Monument,Alibates Flint Quarries,35.581959,-101.671709
-LAMR,Lake Meredith National Recreation Area,TX,IMR,IMR_DEM.TIF,National Recreation Area,Lake Meredith,35.619437,-101.681384
-WHSA,White Sands National Park,NM,IMR,IMR_DEM.TIF,National Park,White Sands,32.778336,-106.32535
-PETR,Petroglyph National Monument,NM,IMR,IMR_DEM.TIF,National Monument,Petroglyph,35.139148,-106.749153
-SAAN,San Antonio Missions National Historical Park,TX,IMR,IMR_DEM.TIF,National Historical Park,San Antonio Missions,29.332731,-98.428893
-PAAL,Palo Alto Battlefield National Historical Park,TX,IMR,IMR_DEM.TIF,National Historical Park,Palo Alto Battlefield,26.023916,-97.46289
-BEOL,Bent's Old Fort National Historic Site,CO,IMR,IMR_DEM.TIF,National Historic Site,Bent's Old Fort,38.039775,-103.42665
-ELMA,El Malpais National Monument,NM,IMR,IMR_DEM.TIF,National Monument,El Malpais,34.883545,-107.996828
-BRVB,Brown v. Board of Education National Historic Site,KS,MWR,MWR_DEM.TIF,National Historic Site,Brown V Board Of Education,39.037933,-95.676144
-ULSG,Ulysses S. Grant National Historic Site,MO,MWR,MWR_DEM.TIF,National Historic Site,Ulysses S Grant,38.551824,-90.351693
-GRPO,Grand Portage National Monument,MI,MWR,MWR_DEM.TIF,National Monument,Grand Portage,47.999682,-89.75572
-JECA,Jewel Cave National Monument,SD,MWR,MWR_DEM.TIF,National Monument,Jewel Cave,43.731029,-103.829994
-FOLS,Fort Larned National Historic Site,KS,MWR,MWR_DEM.TIF,National Historic Site,Fort Larned,38.18047,-99.218368
-PEVI,Perry's Victory and International Peace Memorial,OH,MWR,MWR_DEM.TIF,National Memorial,Perry's Victory & International Peace,41.654498,-82.811579
-JAGA,James A. Garfield National Historic Site,OH,MWR,MWR_DEM.TIF,National Historic Site,James A Garfield,41.664865,-81.350866
-PIPE,Pipestone National Monument,MN,MWR,MWR_DEM.TIF,National Monument,Pipestone,44.013519,-96.324755
-ARPO,Arkansas Post National Memorial,AR,MWR,MWR_DEM.TIF,National Memorial,Arkansas Post,34.020725,-91.308363
-MORU,Mount Rushmore National Memorial,SD,MWR,MWR_DEM.TIF,National Memorial,Mount Rushmore,43.880369,-103.452519
-JEFF,Gateway Arch National Park,MO,MWR,MWR_DEM.TIF,National Park,Gateway Arch,38.622116,-90.180396
-GERO,George Rogers Clark National Historical Park,IN,MWR,MWR_DEM.TIF,National Historical Park,George Rogers Clark,38.679127,-87.535452
-KNRI,Knife River Indian Villages National Historic Site,ND,MWR,MWR_DEM.TIF,National Historic Site,Knife River Indian Villages,47.353898,-101.385719
-SCBL,Scotts Bluff National Monument,NE,MWR,MWR_DEM.TIF,National Monument,Scotts Bluff,41.834761,-103.707243
-AGFO,Agate Fossil Beds National Monument,NE,MWR,MWR_DEM.TIF,National Monument,Agate Fossil Beds,42.421703,-103.753885
-RRBH,Ronald Reagan Boyhood Home National Historic Site,IL,MWR,MWR_DEM.TIF,National Historic Site,Ronald Reagan Boyhood Home,41.836232,-89.480292
-CHYO,Charles Young Buffalo Soldiers National Monument,OH,MWR,MWR_DEM.TIF,National Monument,Charles Young Buffalo Soldiers,39.708178,-83.893286
-DAAV,Dayton Aviation Heritage National Historical Park,OH,MWR,MWR_DEM.TIF,National Historical Park,Dayton Aviation Heritage,39.803968,-84.101606
-LIBO,Lincoln Boyhood National Memorial,IN,MWR,MWR_DEM.TIF,National Memorial,Lincoln Boyhood,38.11817,-86.996569
-TAPR,Tallgrass Prairie National Preserve,KS,MWR,MWR_DEM.TIF,National Preserve,Tallgrass Prairie,38.440222,-96.567078
-LOSA,Lower Saint Croix National Scenic Riverway,WI,MWR,MWR_DEM.TIF,National Scenic Riverway,Lower Saint Croix,45.344898,-92.741493
-WICA,Wind Cave National Park,SD,MWR,MWR_DEM.TIF,National Park,Wind Cave,43.580095,-103.439479
-PULL,Pullman National Monument,IL,MWR,MWR_DEM.TIF,National Monument,Pullman,41.694291,-87.608926
-VOYA,Voyageurs National Park,MN,MWR,MWR_DEM.TIF,National Park,Voyageurs,48.483547,-92.838101
-FOSM,Fort Smith National Historic Site,AR,MWR,MWR_DEM.TIF,National Historic Site,Fort Smith,35.388324,-94.43494
-LECL,Lewis and Clark National Historic Trail,NE,MWR,MWR_DEM.TIF,National Historic Trail,Lewis and Clark,40.664145,-95.832534
-LIHO,Lincoln Home National Historic Site,IL,MWR,MWR_DEM.TIF,National Historic Site,Lincoln Home,39.797156,-89.645134
-THRO,Theodore Roosevelt National Park,ND,MWR,MWR_DEM.TIF,National Park,Theodore Roosevelt,46.953592,-103.42997
-APIS,Apostle Islands National Lakeshore,WI,MWR,MWR_DEM.TIF,National Lakeshore,Apostle Islands,46.963491,-90.660423
-KEWE,Keweenaw National Historical Park,MI,MWR,MWR_DEM.TIF,National Historical Park,Keweenaw,47.138156,-88.522807
-HOME,Homestead National Monument,NE,MWR,MWR_DEM.TIF,National Monument,Homestead,40.287964,-96.834025
-RIRA,River Raisin National Battlefield Park,MI,MWR,MWR_DEM.TIF,National Battlefield Park,River Raisin,41.912964,-83.376179
-MISS,Mississippi National River and Recreation Area,MN,MWR,MWR_DEM.TIF,National River and Recreation Area,Mississippi,44.772235,-93.046475
-HSTR,Harry S Truman National Historic Site,MO,MWR,MWR_DEM.TIF,National Historic Site,Harry S Truman,38.901192,-94.518572
-CHSC,Little Rock Central High School National Historic Site,AR,MWR,MWR_DEM.TIF,National Historic Site,Little Rock Central High School,34.736943,-92.299733
-WICL,President William Jefferson Clinton Birthplace Home National Historic Site,AR,MWR,MWR_DEM.TIF,National Historic Site,President William Jefferson Clinton Birthplace Home,33.66758,-93.596374
-FOUS,Fort Union Trading Post National Historic Site,ND,MWR,MWR_DEM.TIF,National Historic Site,Fort Union Trading Post,48.000814,-104.037584
-OZAR,Ozark National Scenic Riverway,MO,MWR,MWR_DEM.TIF,National Scenic Riverway,Ozark,37.147162,-91.256838
-FILA,First Ladies National Historic Site,OH,MWR,MWR_DEM.TIF,National Historic Site,First Ladies,40.796622,-81.375799
-WICR,Wilson's Creek National Battlefield,MO,MWR,MWR_DEM.TIF,National Battlefield,Wilson's Creek,37.099819,-93.409675
-GWCA,George Washington Carver National Monument,MO,MWR,MWR_DEM.TIF,National Monument,George Washington Carver,36.986642,-94.355524
-SACN,Saint Croix National Scenic Riverway,WI,MWR,MWR_DEM.TIF,National Scenic Riverway,Saint Croix,45.980215,-92.213982
-CUVA,Cuyahoga Valley National Park,OH,MWR,MWR_DEM.TIF,National Park,Cuyahoga Valley,41.259102,-81.570988
-IATR,Ice Age National Scenic Trail,WI,MWR,MWR_DEM.TIF,National Scenic Trail,Ice Age,43.07858,-89.616784
-HEHO,Herbert Hoover National Historic Site,IA,MWR,MWR_DEM.TIF,National Historic Site,Herbert Hoover,41.667924,-91.352419
-FOSC,Fort Scott National Historic Site,KS,MWR,MWR_DEM.TIF,National Historic Site,Fort Scott,37.843617,-94.70445
-HOCU,Hopewell Culture National Historical Park,OH,MWR,MWR_DEM.TIF,National Historical Park,Hopewell Culture,39.279394,-83.080393
-BADL,Badlands National Park,SD,MWR,MWR_DEM.TIF,National Park,Badlands,43.834002,-102.483262
-EFMO,Effigy Mounds National Monument,IA,MWR,MWR_DEM.TIF,National Monument,Effigy Mounds,43.081647,-91.197597
-NIOB,Niobrara National Scenic River,NE,MWR,MWR_DEM.TIF,National Scenic River,Niobrara,42.725866,-99.918279
-PERI,Pea Ridge National Military Park,AR,MWR,MWR_DEM.TIF,National Military Park,Pea Ridge,36.454379,-94.034684
-WIHO,William Howard Taft National Historic Site,OH,MWR,MWR_DEM.TIF,National Historic Site,William Howard Taft,39.119704,-84.50759
-ISRO,Isle Royale National Park,MI,MWR,MWR_DEM.TIF,National Park,Isle Royale,48.01098,-88.828494
-MNRR,Missouri National Recreation River,SD,MWR,MWR_DEM.TIF,National Recreation River,Missouri,42.766758,-97.595662
-MIMI,Minuteman Missile National Historic Site,SD,MWR,MWR_DEM.TIF,National Historic Site,Minuteman Missile,43.844577,-101.948572
-INDU,Indiana Dunes National Park,IN,MWR,MWR_DEM.TIF,National Park,Indiana Dunes,41.637206,-87.097116
-SLBE,Sleeping Bear Dunes National Lakeshore,MI,MWR,MWR_DEM.TIF,National Lakeshore,Sleeping Bear Dunes,45.111506,-86.026967
-NICO,Nicodemus National Historic Site,KS,MWR,MWR_DEM.TIF,National Historic Site,Nicodemus,39.39036,-99.616772
-HOSP,Hot Springs National Park,AR,MWR,MWR_DEM.TIF,National Park,Hot Springs,34.511121,-93.063341
-BUFF,Buffalo National River,AR,MWR,MWR_DEM.TIF,National River,Buffalo,35.968644,-92.907731
-PIRO,Pictured Rocks National Lakeshore,MI,MWR,MWR_DEM.TIF,National Lakeshore,Pictured Rocks,46.563731,-86.316074
-WOTR,Wolf Trap National Park for the Performing Arts,VA,NCR,NER_DEM.TIF,Other Designation,Wolf Trap NP for the Performing Arts,38.938491,-77.264764
-THIS,Theodore Roosevelt Island National Memorial,DC,NCR,NER_DEM.TIF,National Memorial,Theodore Roosevelt Island,38.895841,-77.062419
-LYBA,Lyndon Baines Johnson Memorial Grove on the Potomac,DC,NCR,NER_DEM.TIF,National Memorial,Lyndon Baines Johnson Memorial Grove,38.87858,-77.051458
-GREE,Greenbelt Park,MD,NCR,NER_DEM.TIF,Other Designation,Greenbelt,38.983416,-76.897703
-CAWO,Carter G. Woodson National Historic Site,MD,NCR,NER_DEM.TIF,National Historic Site,Carter G. Woodson Home,38.910885,-77.024309
-MABE,Mary McLeod Bethune Council House National Historic Site,DC,NCR,NER_DEM.TIF,National Historic Site,Mary McLeod Bethune Council House,38.908183,-77.030965
-FOTH,Ford's Theatre National Historic Site,DC,NCR,NER_DEM.TIF,National Historic Site,Ford's Theatre,38.89668,-77.025777
-CLBA,Clara Barton National Historic Site,MD,NCR,NER_DEM.TIF,National Historic Site,Clara Barton,38.967629,-77.140097
-FOWA,Fort Washington Park,MD,NCR,NER_DEM.TIF,Other Designation,Fort Washington,38.712177,-77.028751
-WAMO,Washington Monument,DC,NCR,NER_DEM.TIF,National Memorial,Washington Monument,38.888652,-77.035466
-JEFM,Thomas Jefferson Memorial,DC,NCR,NER_DEM.TIF,National Memorial,Thomas Jefferson Memorial,38.881014,-77.036326
-WHHO,White House,DC,NCR,NER_DEM.TIF,Other Designation,President's Park (White House),38.89704,-77.036554
-CATO,Catoctin Mountain Park,MD,NCR,NER_DEM.TIF,Other Designation,Catoctin Mountain,39.650763,-77.4643
-FRDE,Franklin Delano Roosevelt Memorial,DC,NCR,NER_DEM.TIF,National Memorial,Franklin Delano Roosevelt,38.883413,-77.043115
-WWII,World War II Memorial,DC,NCR,NER_DEM.TIF,National Memorial,World War II Memorial,38.889239,-77.040376
-VIVE,Vietnam Veterans Memorial,DC,NCR,NER_DEM.TIF,National Memorial,Vietnam Veterans,38.890963,-77.047657
-KOWA,Korean War Veterans Memorial,DC,NCR,NER_DEM.TIF,National Memorial,Korean War Veterans,38.887842,-77.047739
-COGA,Constitution Gardens,DC,NCR,NER_DEM.TIF,Other Designation,Constitution Gardens,38.890935,-77.044093
-MLKM,"Martin Luther King, Jr., Memorial",DC,NCR,NER_DEM.TIF,National Memorial,Martin Luther King Jr,38.88628,-77.044255
-LINC,Lincoln Memorial,DC,NCR,NER_DEM.TIF,National Memorial,Lincoln,38.889272,-77.050178
-MALL,National Mall,DC,NCR,NER_DEM.TIF,Other Designation,National Mall,38.889866,-77.022784
-PAAV,Pennsylvania Avenue National Historic Site,DC,NCR,NER_DEM.TIF,National Historic Site,Pennsylvania Avenue,38.893973,-77.023596
-WWIM,World War I Memorial,DC,NCR,NER_DEM.TIF,National Memorial,World War I,38.895933,-77.03286
-BEPA,Belmont-Paul Women's Equality National Monument,DC,NCR,NER_DEM.TIF,National Monument,Belmont-Paul Women's Equality,38.892323,-77.003861
-FRDO,Frederick Douglass National Historic Site,DC,NCR,NER_DEM.TIF,National Historic Site,Frederick Douglass,38.862982,-76.985074
-NACA,National Capital Parks,DC,NCR,NER_DEM.TIF,Park,National Capital Parks,39.063193,-76.965159
-ROCR,Rock Creek Park,DC,NCR,NER_DEM.TIF,Other Designation,Rock Creek Park,38.962892,-77.046027
-MANA,Manassas National Battlefield Park,VA,NCR,NER_DEM.TIF,National Battlefield Park,Manassas,38.818951,-77.533331
-ANTI,Antietam National Battlefield,MD,NCR,NER_DEM.TIF,National Battlefield,Antietam,39.470151,-77.738073
-PRWI,Prince William Forest Park,VA,NCR,NER_DEM.TIF,Other Designation,Prince William Forest,38.585832,-77.387417
-MONO,Monocacy National Battlefield,MD,NCR,NER_DEM.TIF,National Battlefield,Monocacy,39.362065,-77.395617
-PISC,Piscataway Park,MD,NCR,NER_DEM.TIF,Other Designation,Piscataway,38.684757,-77.053072
-ARHO,"Arlington House, The Robert E. Lee Memorial",VA,NCR,NER_DEM.TIF,National Memorial,"Arlington House, The Robert E. Lee Memorial",38.882153,-77.073524
-CHOH,Chesapeake and Ohio Canal National Historical Park,DC,NCR,NER_DEM.TIF,National Historical Park,Chesapeake and Ohio Canal,39.117881,-77.960859
-DDEM,Dwight D. Eisenhower Memorial,DC,NCR,NER_DEM.TIF,Memorial,Dwight D. Eisenhower,38.887136,-77.018793
-HAFE,Harpers Ferry National Historical Park,WV,NCR,NER_DEM.TIF,National Historical Park,Harpers Ferry,39.318688,-77.74201
-GWMP,George Washington Memorial Parkway,VA,NCR,NER_DEM.TIF,National Parkway,George Washington,38.714986,-77.128842
-CEBE,Cedar Creek and Belle Grove National Historical Park,VA,NER,NER_DEM.TIF,National Historical Park,Cedar Creek & Belle Grove,39.00935,-78.306193
-HOFR,Home of Franklin D. Roosevelt National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Home of Franklin D Roosevelt,41.765988,-73.925763
-BOHA,Boston Harbor Islands National Recreation Area,MA,NER,NER_DEM.TIF,National Recreation Area,Boston Harbor Islands,42.262199,-70.939401
-SAPA,Saint Paul's Church National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Saint Paul's Church,40.892835,-73.825773
-CACL,Castle Clinton National Monument,NY,NER,NER_DEM.TIF,National Monument,Castle Clinton,40.703478,-74.016806
-EDIS,Thomas Edison National Historical Park,NJ,NER,NER_DEM.TIF,National Historical Park,Thomas Edison,40.785971,-74.238211
-AFBG,African Burial Ground National Monument,NY,NER,NER_DEM.TIF,National Monument,African Burial Ground,40.714549,-74.004329
-EDAL,Edgar Allan Poe National Historic Site,PA,NER,NER_DEM.TIF,National Historic Site,Edgar Allan Poe,39.961955,-75.150006
-BOAF,Boston African American National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,Boston African American,42.357896,-71.067642
-ADAM,Adams National Historical Park,MA,NER,NER_DEM.TIF,National Historical Park,Adams,42.256594,-71.011603
-THST,Thomas Stone National Historic Site,MD,NER,NER_DEM.TIF,National Historic Site,Thomas Stone,38.529344,-77.037813
-SAMA,Salem Maritime National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,Salem Maritime,42.520245,-70.886409
-BOWA,Booker T. Washington National Monument,VA,NER,NER_DEM.TIF,National Monument,Booker T Washington,37.115205,-79.731858
-FOST,Fort Stanwix National Monument,NY,NER,NER_DEM.TIF,National Monument,Fort Stanwix,43.210534,-75.455576
-THKO,Thaddeus Kosciuszko National Memorial,PA,NER,NER_DEM.TIF,National Memorial,Thaddeus Kosciuszko,39.943453,-75.14732
-APCO,Appomattox Court House National Historical Park,VA,NER,NER_DEM.TIF,National Historical Park,Appomattox Court House,37.380221,-78.79857
-PETE,Petersburg National Battlefield,VA,NER,NER_DEM.TIF,National Battlefield,Petersburg,37.227995,-77.476022
-SAGA,Saint-Gaudens National National Historical Park,NH,NER,NER_DEM.TIF,National Historical Park,Saint-Gaudens,43.499173,-72.374537
-JOFI,John Fitzgerald Kennedy National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,John F Kennedy,42.346937,-71.123238
-ELRO,Eleanor Roosevelt National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Eleanor Roosevelt,41.761967,-73.898932
-FRHI,Friendship Hill National Historic Site,PA,NER,NER_DEM.TIF,National Historic Site,Friendship Hill,39.775455,-79.92528
-THRB,Theodore Roosevelt Birthplace National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Theodore Roosevelt Birthplace,40.738593,-73.989013
-NEBE,New Bedford Whaling National Historical Park,MA,NER,NER_DEM.TIF,National Historical Park,New Bedford Whaling,41.635648,-70.923196
-SAHI,Sagamore Hill National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Sagamore Hill,40.885752,-73.497355
-WORI,Women's Rights National Historical Park,NY,NER,NER_DEM.TIF,National Historical Park,Women's Rights,42.90262,-76.816558
-LONG,Longfellow House-Washington's Headquarters National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,Longfellow,42.376989,-71.12637
-HOFU,Hopewell Furnace National Historic Site,PA,NER,NER_DEM.TIF,National Historic Site,Hopewell Furnace,40.206072,-75.768116
-SPAR,Springfield Armory National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,Springfield Armory,42.108304,-72.581126
-MAWA,Maggie L. Walker National Historic Site,VA,NER,NER_DEM.TIF,National Historic Site,Maggie L. Walker,37.547501,-77.436945
-MORR,Morristown National Historical Park,NJ,NER,NER_DEM.TIF,National Historical Park,Morristown,40.765223,-74.534586
-MAVA,Martin Van Buren National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Martin Van Buren,42.366664,-73.708343
-GOIS,Governors Island National Monument,NY,NER,NER_DEM.TIF,National Monument,Governors Island,40.691642,-74.016708
-JOFL,Johnstown Flood National Memorial,PA,NER,NER_DEM.TIF,National Memorial,Johnstown Flood,40.345868,-78.774252
-FLNI,Flight 93 National Memorial,PA,NER,NER_DEM.TIF,National Memorial,Flight 93,40.060612,-78.89457
-MABI,Marsh-Billings-Rockefeller National Historical Park,VT,NER,NER_DEM.TIF,National Historical Park,Marsh - Billings - Rockefeller,43.633421,-72.53477
-EISE,Eisenhower National Historic Site,PA,NER,NER_DEM.TIF,National Historic Site,Eisenhower,39.795775,-77.265081
-FONE,Fort Necessity National Battlefield,PA,NER,NER_DEM.TIF,National Battlefield,Fort Necessity,39.813057,-79.590332
-FOMC,Fort McHenry National Monument and Historic Shrine,MD,NER,NER_DEM.TIF,National Monument and Historic Shrine,Fort McHenry,39.263953,-76.580442
-SAIR,Saugus Iron Works National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,Saugus Iron Works,42.468307,-71.007695
-ROWI,Roger Williams National Memorial,RI,NER,NER_DEM.TIF,National Memorial,Roger Williams,41.829895,-71.410567
-ALPO,Allegheny Portage Railroad National Historic Site,PA,NER,NER_DEM.TIF,National Historic Site,Allegheny Portage Railroad,40.446771,-78.574356
-BOST,Boston National Historical Park,MA,NER,NER_DEM.TIF,National Historical Park,Boston,42.373378,-71.055377
-GEGR,General Grant National Memorial,NY,NER,NER_DEM.TIF,National Memorial,General Grant,40.813434,-73.963076
-FRST,First State National Historical Park,DE,NER,NER_DEM.TIF,National Historical Park,First State,39.830758,-75.563539
-PAGR,Paterson Great Falls National Historical Park,NJ,NER,NER_DEM.TIF,National Historical Park,Paterson Great Falls,40.915846,-74.180215
-WEFA,Weir Farm National Historic Site,CT,NER,NER_DEM.TIF,National Historic Site,Weir Farm,41.256758,-73.454525
-THRI,Theodore Roosevelt Inaugural National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Theodore Roosevelt Inaugural,42.901468,-78.872484
-VAMA,Vanderbilt Mansion National Historic Site,NY,NER,NER_DEM.TIF,National Historic Site,Vanderbilt Mansion,41.796979,-73.942056
-GATE,Gateway National Recreation Area,NY,NER,NER_DEM.TIF,National Recreation Area,Gateway,40.571501,-73.910087
-UPDE,Upper Delaware Scenic and Recreational River,PA,NER,NER_DEM.TIF,Scenic and Recreational River,Upper Delaware,41.516957,-75.038401
-CACO,Cape Cod National Seashore,MA,NER,NER_DEM.TIF,National Seashore,Cape Cod,41.960463,-70.043051
-FRLA,Frederick Law Olmsted National Historic Site,MA,NER,NER_DEM.TIF,National Historic Site,Frederick Law Olmsted,42.324243,-71.132026
-GEWA,George Washington Birthplace National Monument,VA,NER,NER_DEM.TIF,National Monument,George Washington Birthplace,38.193626,-76.920794
-HAGR,Hamilton Grange National Memorial,NY,NER,NER_DEM.TIF,National Memorial,Hamilton Grange,40.821352,-73.948785
-HAMP,Hampton National Historic Site,MD,NER,NER_DEM.TIF,National Historic Site,Hampton,39.41753,-76.587812
-SACR,Saint Croix Island International Historic Site,ME,NER,NER_DEM.TIF,International Historic Site,Saint Croix Island,45.128588,-67.133637
-STLI,Statue Of Liberty National Monument,NY,NER,NER_DEM.TIF,National Monument,Statue Of Liberty,40.695761,-74.042356
-FRSP,Fredericksburg and Spotsylvania County Battlefields Memorial National Military Park,VA,NER,NER_DEM.TIF,National Military Park,Fredericksburg & Spotsylvania,38.303639,-77.644829
-STON,Stonewall National Monument,NY,NER,NER_DEM.TIF,National Monument,Stonewall,40.733389,-74.000686
-FEHA,Federal Hall National Memorial,NY,NER,NER_DEM.TIF,National Memorial,Federal Hall,40.707315,-74.01026
-CAJO,Captain John Smith National Historic Trail,MD,NER,NER_DEM.TIF,National Historic Trail,Captain John Smith,37.412743,-76.649374
-INDE,Independence National Historical Park,PA,NER,NER_DEM.TIF,National Historical Park,Independence,39.95168,-75.148361
-MIMA,Minute Man National Historical Park,MA,NER,NER_DEM.TIF,National Historical Park,Minute Man,42.4534,-71.307388
-KAWW,Katahdin Woods And Waters National Monument,ME,NER,NER_DEM.TIF,National Monument,Katahdin Woods And Waters,45.956524,-68.712135
-SARA,Saratoga National Historical Park,NY,NER,NER_DEM.TIF,National Historical Park,Saratoga,42.998314,-73.629914
-VAFO,Valley Forge National Historical Park,PA,NER,NER_DEM.TIF,National Historical Park,Valley Forge,40.10054,-75.445809
-FOMR,Fort Monroe National Monument,VA,NER,NER_DEM.TIF,National Monument,Fort Monroe,37.016146,-76.301179
-COLO,Colonial National Historical Park,VA,NER,NER_DEM.TIF,National Historical Park,Colonial,37.237902,-76.624777
-GETT,Gettysburg National Military Park,PA,NER,NER_DEM.TIF,National Military Park,Gettysburg,39.815352,-77.232477
-ASIS,Assateague Island National Seashore,MD,NER,NER_DEM.TIF,National Seashore,Assateague Island,38.060006,-75.2463
-SHEN,Shenandoah National Park,VA,NER,NER_DEM.TIF,National Park,Shenandoah,38.491199,-78.469099
-ACAD,Acadia National Park,ME,NER,NER_DEM.TIF,National Park,Acadia,44.316403,-68.303236
-BLUE,Bluestone National Scenic River,WV,NER,NER_DEM.TIF,National Scenic River,Bluestone,37.565524,-80.984084
-GARI,Gauley River National Recreation Area,WV,NER,NER_DEM.TIF,National Recreation Area,Gauley River,38.206041,-81.004433
-HATU,Harriet Tubman Underground Railroad National Historical Park,MD,NER,NER_DEM.TIF,National Historical Park,Harriet Tubman Underground Railroad,38.454864,-76.137345
-STEA,Steamtown National Historic Site,PA,NER,NER_DEM.TIF,National Historic Site,Steamtown,41.407231,-75.669736
-FIIS,Fire Island National Seashore,NY,NER,NER_DEM.TIF,National Seashore,Fire Island,40.696835,-73.000941
-NERI,New River Gorge National River,VA,NER,NER_DEM.TIF,National River,New River Gorge,37.766519,-81.001326
-LOWE,Lowell National Historical Park,MA,NER,NER_DEM.TIF,National Historical Park,Lowell,42.639219,-71.317086
-DEWA,Delaware Water Gap National Recreation Area,PA,NER,NER_DEM.TIF,National Recreation Area,Delaware Water Gap,41.127018,-74.950981
-DELA,Delaware National Scenic River,PA,NER,NER_DEM.TIF,National Scenic River,Delaware,41.032049,-74.947866
-HART,Harriet Tubman National Historical Park,NY,NER,NER_DEM.TIF,National Historical Park,Harriet Tubman,42.911737,-76.561193
-RICH,Richmond National Battlefield Park,VA,NER,NER_DEM.TIF,National Battlefield Park,Richmond,37.578079,-77.308975
-BLRI,Blue Ridge Parkway,NC,NTR,NER_DEM_NHT.TIF,Parkway,Blue Ridge Parkway,36.42683,-81.01938
-APPA,Appalachian National Scenic Trail,ME,NTR,NER_DEM_NHT.TIF,National Scenic Trail,Appalachian,35.984102,-76.284797
-NOCO,North Country National Scenic Trail,MI,NTR,MWR_DEM.TIF,National Scenic Trail,North Country,46.392219,-89.983663
-AMME,American Memorial Park,MP,PWR,PWR_DEM.TIF,Park,American Memorial Park,15.2168,145.72311
-PORE,Point Reyes National Seashore,CA,PWR,PWR_DEM.TIF,National Seashore,Point Reyes,38.055007,-122.879727
-MANZ,Manzanar National Historic Site,CA,PWR,PWR_DEM.TIF,National Historic Site,Manzanar,36.725591,-118.154718
-PUHE,Pu'ukohola Heiau National Historic Site,HI,PWR,PWR_DEM.TIF,National Historic Site,Puukohola Heiau,20.027722,-155.821163
-CABR,Cabrillo National Monument,CA,PWR,PWR_DEM.TIF,National Monument,Cabrillo,32.67225,-117.241599
-SEQU,Sequoia National Park,CA,PWR,PWR_DEM.TIF,National Park,Sequoia,36.507684,-118.575203
-KALA,Kalaupapa National Historical Park,HI,PWR,PWR_DEM.TIF,National Historical Park,Kalaupapa,21.173106,-156.951158
-EUON,Eugene O'Neill National Historic Site,CA,PWR,PWR_DEM.TIF,National Historic Site,Eugene O'Neill,37.826045,-122.027157
-GRBA,Great Basin National Park,NV,PWR,PWR_DEM.TIF,National Park,Great Basin,38.946095,-114.257966
-WHIS,Whiskeytown-Shasta-Trinity National Recreation Area,CA,PWR,PWR_DEM.TIF,National Recreation Area,Whiskeytown,40.61358,-122.60226
-FOPO,Fort Point National Historic Site,CA,PWR,PWR_DEM.TIF,National Historic Site,Fort Point,37.8084,-122.473717
-CHIS,Channel Islands National Park,CA,PWR,PWR_DEM.TIF,National Park,Channel Islands,34.016551,-119.911141
-RORI,Rosie the Riveter/World War II Home Front National Historical Park,CA,PWR,PWR_DEM.TIF,National Historical Park,Rosie the Riveter WWII Home Front,37.908668,-122.360156
-CIRO,City of Rocks National Reserve,ID,PWR,PWR_DEM.TIF,National Reserve,City of Rocks,42.069884,-113.71241
-HAFO,Hagerman Fossil Beds National Monument,ID,PWR,PWR_DEM.TIF,National Monument,Hagerman Fossil Beds,42.790727,-114.944309
-FOVA,Fort Vancouver National Historic Site,WA,PWR,PWR_DEM.TIF,National Historic Site,Fort Vancouver,45.622327,-122.661692
-LABE,Lava Beds National Monument,CA,PWR,PWR_DEM.TIF,National Monument,Lava Beds,41.759356,-121.516861
-KICA,Kings Canyon National Park,CA,PWR,PWR_DEM.TIF,National Park,Kings Canyon,36.891687,-118.598111
-WHMI,Whitman Mission National Historic Site,WA,PWR,PWR_DEM.TIF,National Historic Site,Whitman Mission,46.041758,-118.464416
-PUHO,Pu'uhonua o Honaunau National Historical Park,HI,PWR,PWR_DEM.TIF,National Historical Park,Pu`uhonua O Honaunau,19.409031,-155.900879
-DEPO,Devils Postpile National Monument,CA,PWR,PWR_DEM.TIF,National Monument,Devils Postpile,37.615374,-119.087686
-SAFR,San Francisco Maritime National Historical Park,CA,PWR,PWR_DEM.TIF,National Historical Park,San Francisco Maritime,37.810066,-122.424425
-CECH,Cesar E. Chavez National Monument,CA,PWR,PWR_DEM.TIF,National Monument,César E. Chávez,35.227294,-118.561578
-PINN,Pinnacles National Park,CA,PWR,PWR_DEM.TIF,National Park,Pinnacles,36.490396,-121.181168
-WAPA,War in the Pacific,GU,PWR,PWR_DEM.TIF,National Historical Park,War in the Pacific,13.390011,144.692241
-ORCA,Oregon Caves National Monument and Preserve,OR,PWR,PWR_DEM.TIF,National Monument,Oregon Caves,42.103188,-123.401857
-GOGA,Golden Gate National Recreation Area,CA,PWR,PWR_DEM.TIF,National Recreation Area,Golden Gate,37.858877,-122.550566
-POCH,Port Chicago Naval Magazine National Memorial,CA,PWR,PWR_DEM.TIF,National Memorial,Port Chicago Naval Magazine,38.056855,-122.03016
-JODA,John Day Fossil Beds National Monument,OR,PWR,PWR_DEM.TIF,National Monument,John Day Fossil Beds,44.543136,-119.881036
-LAVO,Lassen Volcanic National Park,CA,PWR,PWR_DEM.TIF,National Park,Lassen Volcanic,40.493503,-121.407604
-HONO,Honouliuli National Historic Site,HI,PWR,PWR_DEM.TIF,National Historic Site,Honouliuli,21.388175,-158.057499
-MIIN,Minidoka National Historic Site,WA,PWR,PWR_DEM.TIF,National Historic Site,Minidoka,42.681043,-114.429066
-BIHO,Big Hole National Battlefield,MT,PWR,PWR_DEM.TIF,National Battlefield,Big Hole,45.646473,-113.645844
-MORA,Mount Rainier National Park,WA,PWR,PWR_DEM.TIF,National Park,Mount Rainier,46.860917,-121.705626
-CAMO,Castle Mountains National Monument,CA,PWR,PWR_DEM.TIF,National Monument,Castle Mountain,35.22833,-115.093569
-YOSE,Yosemite National Park,CA,PWR,PWR_DEM.TIF,National Park,Yosemite,37.848319,-119.557143
-NOCA,North Cascades National Park,WA,PWR,PWR_DEM.TIF,National Park,North Cascades,48.833027,-121.205425
-NPSA,National Park of American Samoa,AS,PWR,PWR_DEM.TIF,National Park,National Park of American Samoa,-14.236873,-169.907628
-HALE,Haleakala National Park,HI,PWR,PWR_DEM.TIF,National Park,Haleakala,20.706923,-156.159173
-LACH,Lake Chelan National Recreation Area,WA,PWR,PWR_DEM.TIF,National Recreation Area,Lake Chelan,48.353838,-120.683714
-CRMP,Craters of the Moon National Preserve,ID,PWR,PWR_DEM.TIF,National Preserve,Craters of the Moon,43.151857,-113.482754
-CRMO,Craters of the Moon National Monument,ID,PWR,PWR_DEM.TIF,National Monument,Craters of the Moon,43.402764,-113.520418
-CRLA,Crater Lake National Park,OR,PWR,PWR_DEM.TIF,National Park,Crater Lake,42.941064,-122.132749
-ROLA,Ross Lake National Recreation Area,WA,PWR,PWR_DEM.TIF,National Recreation Area,Ross Lake,48.781498,-121.10394
-LAKE,Lake Mead National Recreation Area,NV,PWR,PWR_DEM.TIF,National Recreation Area,Lake Mead,35.954454,-114.220622
-HAVO,Hawai'i Volcanoes National Park,HI,PWR,PWR_DEM.TIF,National Park,Hawaii Volcanoes,19.377577,-155.469929
-KAHO,Kaloko-Honokohau National Historical Park,HI,PWR,PWR_DEM.TIF,National Historical Park,Kaloko-Honokohau,19.680902,-156.030489
-JOTR,Joshua Tree National Park,CA,PWR,PWR_DEM.TIF,National Park,Joshua Tree,33.915041,-115.842396
-TULE,Tule Lake National Monument,CA,PWR,PWR_DEM.TIF,National Monument,Tule Lake,41.887279,-121.374482
-PERL,Pearl Harbor National Memorial,HI,PWR,PWR_DEM.TIF,National Memorial,Pearl Harbor,21.366993,-157.94141
-MUWO,Muir Woods National Monument,CA,PWR,PWR_DEM.TIF,National Monument,Muir Woods,37.896575,-122.580795
-JOMU,John Muir National Historic Site,CA,PWR,PWR_DEM.TIF,National Historic Site,John Muir,37.982837,-122.13261
-OLYM,Olympic National Park,WA,PWR,PWR_DEM.TIF,National Park,Olympic,47.803284,-123.666456
-SAJH,San Juan Island National Historical Park,WA,PWR,PWR_DEM.TIF,National Historical Park,San Juan Island,48.462157,-123.06159
-REDW,Redwood National Park,CA,PWR,PWR_DEM.TIF,National Park,Redwood,41.433108,-124.033731
-LEWI,Lewis and Clark National Historical Park,WA,PWR,PWR_DEM.TIF,National Historical Park,Lewis and Clark,46.286183,-123.963247
-NEPE,Nez Perce National Historical Park,WA,PWR,PWR_DEM.TIF,National Historical Park,Nez Perce,45.794459,-114.43815
-LARO,Lake Roosevelt National Recreation Area,WA,PWR,PWR_DEM.TIF,National Recreation Area,Lake Roosevelt,47.94264,-118.315648
-EBLA,Ebey's Landing National Historical Reserve,WA,PWR,PWR_DEM.TIF,National Historical Reserve,Ebey's Landing,48.214155,-122.687719
-DEVA,Death Valley National Park,CA,PWR,PWR_DEM.TIF,National Park,Death Valley,36.478224,-117.12976
-SAMO,Santa Monica Mountains National Recreation Area,CA,PWR,PWR_DEM.TIF,National Recreation Area,Santa Monica Mountains,34.097744,-118.77087
-TUSK,Tule Springs Fossil Beds National Monument,NV,PWR,PWR_DEM.TIF,National Monument,Tule Springs Fossil Beds,36.388662,-115.31991
-MOJA,Mojave National Preserve,CA,PWR,PWR_DEM.TIF,National Preserve,Mojave,35.124208,-115.516811
-CASA,Castillo de San Marcos National Monument,FL,SER,SER_DEM.TIF,National Monument,Castillo de San Marcos,29.897857,-81.312172
-TUPE,Tupelo National Battlefield,MS,SER,SER_DEM.TIF,National Battlefield,Tupelo,34.255577,-88.737086
-BRCR,Brices Cross Roads National Battlefield Site,MS,SER,SER_DEM.TIF,National Battlefield Site,Brices Cross Roads,34.50612,-88.728893
-FOSU,Fort Sumter National Monument,SC,SER,SER_DEM.TIF,National Monument,Fort Sumter,32.753594,-79.870687
-NISI,Ninety Six National Historic Site,SC,SER,SER_DEM.TIF,National Historic Site,Ninety Six,34.142735,-82.016361
-BUIS,Buck Island Reef National Monument,VI,SER,SER_DEM.TIF,National Monument,Buck Island Reef,17.810265,-64.622218
-ANJO,Andrew Johnson National Historic Site,TN,SER,SER_DEM.TIF,National Historic Site,Andrew Johnson,36.156245,-82.83709
-ABLI,Abraham Lincoln Birthplace National Historical Park,KY,SER,SER_DEM.TIF,National Historical Park,Abraham Lincoln Birthplace,37.611976,-85.673326
-DRTO,Dry Tortugas National Park,FL,SER,SER_DEM.TIF,National Park,Dry Tortugas,24.648829,-82.87177
-FOFR,Fort Frederica National Monument,GA,SER,SER_DEM.TIF,National Monument,Fort Frederica,31.223555,-81.39452
-CANA,Canaveral National Seashore,FL,SER,SER_DEM.TIF,National Seashore,Canaveral,28.786275,-80.754151
-TUAI,Tuskegee Airmen National Historic Site,AL,SER,SER_DEM.TIF,National Historic Site,Tuskegee Airmen,32.455387,-85.679833
-SARI,Salt River Bay National Historical Park and Ecological Preserve,VI,SER,SER_DEM.TIF,National Historical Park,Salt River Bay,17.779085,-64.755194
-MACA,Mammoth Cave National Park,KY,SER,SER_DEM.TIF,National Park,Mammoth Cave,37.19758,-86.130895
-CARI,Cane River Creole National Historical Park,LA,SER,SER_DEM.TIF,National Historical Park,Cane River Creole,31.664442,-93.001313
-MOCR,Moores Creek National Battlefield,NC,SER,SER_DEM.TIF,National Battlefield,Moores Creek,34.458208,-78.110311
-HOBE,Horseshoe Bend National Military Park,AL,SER,SER_DEM.TIF,National Military Park,Horseshoe Bend,32.976688,-85.734136
-FOMA,Fort Matanzas National Monument,FL,SER,SER_DEM.TIF,National Monument,Fort Matanzas,29.712149,-81.235675
-JELA,Jean Lafitte National Historical Park and Preserve,LA,SER,SER_DEM.TIF,National Historical Park and Preserve,Jean Lafitte,29.817378,-90.140216
-GUIS,Gulf Islands National Seashore,FL,SER,SER_DEM.TIF,National Seashore,Gulf Islands,30.373063,-87.751225
-BISC,Biscayne National Park,FL,SER,SER_DEM.TIF,National Park,Biscayne,25.490495,-80.210247
-FOPU,Fort Pulaski National Monument,GA,SER,SER_DEM.TIF,National Monument,Fort Pulaski,32.03082,-80.933611
-WRBR,Wright Brothers National Memorial,NC,SER,SER_DEM.TIF,National Memorial,Wright Brothers,36.016377,-75.669972
-SEMO,Selma to Montgomery National Historic Trail,AL,SER,SER_DEM.TIF,National Historic Trail,Selma to Montgomery,32.270821,-86.728237
-KIMO,Kings Mountain National Military Park,SC,SER,SER_DEM.TIF,National Military Park,Kings Mountain,35.139006,-81.389788
-RUCA,Russell Cave National Monument,AL,SER,SER_DEM.TIF,National Monument,Russell Cave,34.97402,-85.815603
-VICR,Virgin Islands Coral Reef National Monument,VI,SER,SER_DEM.TIF,National Monument,Virgin Islands Coral Reef,18.28996,-64.706834
-LIRI,Little River Canyon National Preserve,AL,SER,SER_DEM.TIF,National Preserve,Little River Canyon,34.414566,-85.617361
-CHRI,Christiansted National Historic Site,VI,SER,SER_DEM.TIF,National Historic Site,Christiansted,17.734056,-64.729063
-DESO,De Soto National Memorial,FL,SER,SER_DEM.TIF,National Memorial,De Soto,27.522726,-82.643354
-ANDE,Andersonville National Historic Site,GA,SER,SER_DEM.TIF,National Historic Site,Andersonville,32.198317,-84.129889
-COWP,Cowpens National Battlefield,SC,SER,SER_DEM.TIF,National Battlefield,Cowpens,35.131606,-81.809354
-MALU,"Martin Luther King, Jr., National Historic Site",GA,SER,SER_DEM.TIF,National Historic Site,Martin Luther King Jr.,33.75492,-84.372568
-FODO,Fort Donelson National Battlefield,TN,SER,SER_DEM.TIF,National Battlefield,Fort Donelson,36.487282,-87.924443
-JICA,Jimmy Carter National Historic Site,GA,SER,SER_DEM.TIF,National Historic Site,Jimmy Carter,32.026318,-84.416067
-TUIN,Tuskegee Institute National Historic Site,AL,SER,SER_DEM.TIF,National Historic Site,Tuskegee Institute,32.429621,-85.704885
-FOCA,Fort Caroline National Memorial,FL,SER,SER_DEM.TIF,National Memorial,Fort Caroline,30.384683,-81.498021
-NATR,Natchez Trace Parkway,MS,SER,SER_DEM.TIF,Parkway,Natchez Trace,34.186413,-89.050593
-CONG,Congaree National Park,SC,SER,SER_DEM.TIF,National Park,Congaree,33.791868,-80.748665
-JAZZ,New Orleans Jazz National Historical Park,LA,SER,SER_DEM.TIF,National Historical Park,New Orleans Jazz,29.963031,-90.067497
-BICR,Birmingham Civil Rights National Monument,AL,SER,SER_DEM.TIF,National Monument,Birmingham Civil Rights,33.515428,-86.814667
-STRI,Stones River National Battlefield,TN,SER,SER_DEM.TIF,National Battlefield,Stones River,35.876254,-86.430798
-CUIS,Cumberland Island National Seashore,GA,SER,SER_DEM.TIF,National Seashore,Cumberland Island,30.857178,-81.451765
-EVER,Everglades National Park,FL,SER,SER_DEM.TIF,National Park,Everglades,25.375058,-80.881472
-BICY,Big Cypress National Preserve,FL,SER,SER_DEM.TIF,National Preserve,Big Cypress,25.970801,-81.081415
-VIIS,Virgin Islands National Park,VI,SER,SER_DEM.TIF,National Park,Virgin Islands,18.342566,-64.74524
-CALO,Cape Lookout National Seashore,NC,SER,SER_DEM.TIF,National Seashore,Cape Lookout,34.823052,-76.3467
-POPO,Poverty Point National Monument,LA,SER,SER_DEM.TIF,National Monument,Poverty Point,32.642098,-91.407926
-TIMU,Timucuan Ecological and Historic Preserve,FL,SER,SER_DEM.TIF,Ecological and Historic Preserve,Timucuan,30.56599,-81.499738
-SAJU,San Juan National Historic Site,PR,SER,SER_DEM.TIF,National Historic Site,San Juan,18.467477,-66.118206
-CHCH,Chickamauga and Chattanooga National Military Park,GA,SER,SER_DEM.TIF,National Military Park,Chickamauga and Chattanooga,34.919011,-85.299177
-GRSM,Great Smoky Mountains National Park,NC,SER,SER_DEM.TIF,National Park,Great Smoky Mountains,35.60196,-83.507158
-CAHA,Cape Hatteras National Seashore,NC,SER,SER_DEM.TIF,National Seashore,Cape Hatteras,35.239394,-75.618223
-BISO,Big South Fork National River and Recreation Area,TN,SER,SER_DEM.TIF,National River and Recreation Area,Big South Fork,36.534655,-84.66524
-VICK,Vicksburg National Military Park,LA,SER,SER_DEM.TIF,National Military Park,Vicksburg,32.365311,-90.764182
-CHPI,Charles Pinckney National Historic Site,SC,SER,SER_DEM.TIF,National Historic Site,Charles Pinckney,32.845741,-79.82495
-REER,Reconstruction Era National Monument,SC,SER,SER_DEM.TIF,National Monument,Reconstruction Era,32.385048,-80.634873
-CHAT,Chattahoochee River National Recreation Area,GA,SER,SER_DEM.TIF,National Recreation Area,Chattahoochee River,33.973843,-84.25697
-CUGA,Cumberland Gap National Historical Park,KY,SER,SER_DEM.TIF,National Historical Park,Cumberland Gap,36.62643,-83.60707
-FORA,Fort Raleigh National Historic Site,NC,SER,SER_DEM.TIF,National Historic Site,Fort Raleigh,35.932411,-75.716462
-NATC,Natchez National Historical Park,MS,SER,SER_DEM.TIF,National Historical Park,Natchez,31.543005,-91.392477
-MEMY,Medgar and Myrlie Evers Home National Monument,MS,SER,SER_DEM.TIF,National Monument,Medgar and Myrlie Evers Home,32.340867,-90.213588
-CANE,Camp Nelson National Monument,KY,SER,SER_DEM.TIF,National Monument,Camp Nelson,37.792845,-84.595435
-FRRI,Freedom Riders National Monument,AL,SER,SER_DEM.TIF,National Monument,Freedom Riders,33.634958,-85.905837
-OBRI,Obed Wild and Scenic River,TN,SER,SER_DEM.TIF,Wild and Scenic River,Obed,36.092445,-84.772112
-MISP,Mill Springs Battlefield National Monument,KY,SER,SER_DEM.TIF,National Monument,Mill Springs Battlefield,37.056896,-84.753852
-KEMO,Kennesaw Mountain National Battlefield Park,GA,SER,SER_DEM.TIF,National Battlefield Park,Kennesaw Mountain,33.953812,-84.592412
-GUCO,Guilford Courthouse National Military Park,NC,SER,SER_DEM.TIF,National Military Park,Guilford Courthouse,36.132212,-79.842529
-SHIL,Shiloh National Battlefield,MS,SER,SER_DEM.TIF,National Battlefield,Shiloh,35.136597,-88.423166
-OCMU,Ocmulgee National Monument,GA,SER,SER_DEM.TIF,National Monument,Ocmulgee,32.823683,-83.59017
-CARL,Carl Sandburg Home National Historic Site,NC,SER,SER_DEM.TIF,National Historic Site,Carl Sandburg Home,35.268046,-82.451153
+UNIT_CODE,UNIT_NAME,STATE,REGION,DEM_Name,LC_Name,UNIT_TYPE,PARKNAME,Lat,Long
+DENA,Denali National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Denali,63.477507,-152.203629
+WRST,Wrangell-St. Elias National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Wrangell - St Elias,61.069973,-142.434201
+WRST,Wrangell-St. Elias National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Wrangell - St Elias,61.925999,-142.836262
+GLBA,Glacier Bay National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Glacier Bay,58.791402,-136.810818
+GLBA,Glacier Bay National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Glacier Bay,59.131341,-138.351429
+KATM,Katmai National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Katmai,58.562382,-154.978641
+KEFJ,Kenai Fjords National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Kenai Fjords,59.816149,-150.108107
+LACL,Lake Clark National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Lake Clark,60.601497,-154.129751
+NOAT,Noatak National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Noatak,68.004212,-159.832717
+BELA,Bering Land Bridge National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Bering Land Bridge,65.954628,-164.403866
+ALAG,Alagnak Wild River,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,Wild River,Alagnak,59.003066,-156.111907
+SITK,Sitka National Historical Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Historical Park,Sitka,57.047181,-135.315671
+ANIA,Aniakchak National Monument,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Monument,Aniakchak,56.895443,-158.117809
+CAKR,Cape Krusenstern National Monument,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Monument,Cape Krusenstern,67.411879,-163.50199
+GAAR,Gates of the Arctic National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Gates of the Arctic,67.796807,-153.30978
+DENA,Denali National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Denali,63.341108,-150.734146
+KATM,Katmai National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Katmai,59.106646,-155.320051
+KOVA,Kobuk Valley National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Kobuk Valley,67.353365,-159.198885
+GAAR,Gates of the Arctic National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Gates of the Arctic,66.779533,-153.226554
+ANIA,Aniakchak National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Aniakchak,56.865032,-157.720824
+YUCH,Yukon-Charley Rivers National Preserve,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Preserve,Yukon - Charley Rivers,65.089786,-142.798428
+LACL,Lake Clark National Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Park,Lake Clark,60.547142,-153.248668
+KLGO,Klondike Gold Rush National Historical Park,AK,AKR,AKR_DEM.TIF,AKR_LC_2016.TIF,National Historical Park,Klondike Gold Rush,59.631587,-135.261768
+LIBI,Little Bighorn Battlefield National Monument,MT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Little Bighorn Battlefield,45.565054,-107.418355
+CAVO,Capulin Volcano National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Capulin Volcano,36.781711,-103.971043
+FOBO,Fort Bowie National Historic Site,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Fort Bowie,32.149259,-109.451132
+GICL,Gila Cliff Dwellings National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Gila Cliff Dwellings,33.227152,-108.270671
+TUZI,Tuzigoot National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Tuzigoot,34.772963,-112.027907
+YUHO,Yucca House National Monument,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Yucca House,37.247789,-108.686127
+TICA,Timpanogos Cave National Monument,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Timpanogos Cave,40.440397,-111.709394
+TONT,Tonto National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Tonto,33.648429,-111.113563
+SUCR,Sunset Crater Volcano National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Sunset Crater Volcano,35.371142,-111.510376
+PISP,Pipe Spring National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Pipe Spring,36.862827,-112.739857
+ELMO,El Morro National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,El Morro,35.038959,-108.346398
+FOBU,Fossil Butte National Monument,WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Fossil Butte,41.856343,-110.762471
+HOVE,Hovenweep National Monument,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Hovenweep,37.383539,-109.004823
+FOUN,Fort Union National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Fort Union,35.907006,-105.014519
+BRCA,Bryce Canyon National Park,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Bryce Canyon,37.583898,-112.182711
+JODR,"John D. Rockefeller, Jr., Memorial Parkway",WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Parkway,John D Rockefeller Jr,44.088698,-110.728042
+YELL,Yellowstone National Park,WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Yellowstone,44.596445,-110.547196
+HUTR,Hubbell Trading Post National Historic Site,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Hubbell Trading Post,35.707273,-109.559952
+CHAM,Chamizal National Memorial,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Memorial,Chamizal,31.767296,-106.454401
+NAVA,Navajo National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Navajo,36.685491,-110.55043
+CANY,Canyonlands National Park,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Canyonlands,38.245142,-109.880112
+RABR,Rainbow Bridge National Monument,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Rainbow Bridge,37.077888,-110.96551
+NABR,Natural Bridges National Monument,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Natural Bridges,37.604528,-110.002245
+PIMA,Hohokam Pima National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Hohokam Pima,33.187138,-111.919274
+GUMO,Guadalupe Mountains National Park,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Guadalupe Mountains,31.92301,-104.885535
+CORO,Coronado National Memorial,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Memorial,Coronado,31.349003,-110.256157
+GOSP,Golden Spike National Historic Site,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Golden Spike,41.630996,-112.524289
+MOCA,Montezuma Castle National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Montezuma Castle,34.611021,-111.814793
+BICA,Bighorn Canyon National Recreation Area,WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Recreation Area,Bighorn Canyon,45.289074,-108.144616
+SAND,Sand Creek Massacre National Historic Site,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Sand Creek Massacre,38.564134,-102.516951
+CARE,Capitol Reef National Park,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Capitol Reef,38.17732,-111.176404
+SAPU,Salinas Pueblo Missions National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Salinas Pueblo Missions,34.259424,-106.204868
+CAGR,Casa Grande Ruins National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Casa Grande Ruins,32.997026,-111.532538
+CHIR,Chiricahua National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Chiricahua,32.012141,-109.341606
+DETO,Devils Tower National Monument,WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Devils Tower,44.590646,-104.715634
+CACH,Canyon de Chelly National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Canyon de Chelly,36.094048,-109.338824
+MAPR,Manhattan Project National Historical Park,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,Manhattan Project,35.935395,-99.821133
+WACO,Waco Mammoth National Monument,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Waco Mammoth,31.604659,-97.176061
+GLCA,Glen Canyon National Recreation Area,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Recreation Area,Glen Canyon,37.515554,-110.773602
+BAND,Bandelier National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Bandelier,35.778949,-106.3317
+COLM,Colorado National Monument,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Colorado,39.050425,-108.692061
+LYJO,Lyndon B. Johnson National Historical Park,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,Lyndon B Johnson,30.250359,-98.606862
+CAVE,Carlsbad Caverns National Park,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Carlsbad Caverns,32.140874,-104.552993
+AZRU,Aztec Ruins National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Aztec Ruins,36.836822,-107.999924
+ZION,Zion National Park,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Zion,37.298237,-113.026442
+PECO,Pecos National Historical Park,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,Pecos,35.541918,-105.681466
+ORPI,Organ Pipe Cactus National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Organ Pipe Cactus,32.035706,-112.857283
+CURE,Curecanti National Recreation Area,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Recreation Area,Curecanti,38.467792,-107.323999
+DINO,Dinosaur National Monument,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Dinosaur,40.507281,-108.933365
+GLAC,Glacier National Park,MT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Glacier,48.683296,-113.80032
+SAGU,Saguaro National Park,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Saguaro,32.178707,-110.757359
+CHCU,Chaco Culture National Historical Park,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,Chaco Culture,36.039672,-107.955936
+GRKO,Grant-Kohrs Ranch National Historic Site,MT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Grant-Kohrs Ranch,46.413752,-112.746693
+GRTE,Grand Teton National Park,WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Grand Teton,43.81816,-110.705488
+CHIC,Chickasaw National Recreation Area,OK,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Recreation Area,Chickasaw,34.460511,-97.007019
+GRSA,Great Sand Dunes National Preserve,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Preserve,Great Sand Dunes,37.83361,-105.496716
+GRSA,Great Sand Dunes National Park,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Great Sand Dunes,37.776553,-105.628888
+BITH,Big Thicket National Preserve,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Preserve,Big Thicket,30.340875,-94.337233
+RIGR,Rio Grande Wild and Scenic River,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,Wild and Scenic River,Rio Grande,29.757749,-102.730435
+BLCA,Black Canyon of the Gunnison National Park,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Black Canyon of the Gunnison,38.578011,-107.72442
+WACA,Walnut Canyon National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Walnut Canyon,35.165849,-111.501993
+WUPA,Wupatki National Monument,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Wupatki,35.55739,-111.395727
+WABA,Washita Battlefield National Historic Site,OK,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Washita Battlefield,35.620848,-99.704462
+BIBE,Big Bend National Park,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Big Bend,29.29738,-103.229435
+CEBR,Cedar Breaks National Monument,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Cedar Breaks,37.635405,-112.845158
+FODA,Fort Davis National Historic Site,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Fort Davis,30.599304,-103.896191
+ARCH,Arches National Park,UT,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Arches,38.722539,-109.58635
+FOLA,Fort Laramie National Historic Site,WY,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Fort Laramie,42.203017,-104.545911
+TUMA,Tumacacori National Historical Park,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,Tumacácori,31.572832,-111.038496
+GRCA,Grand Canyon National Park,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Grand Canyon,36.186545,-112.684253
+PAIS,Padre Island National Seashore,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Seashore,Padre Island,26.705775,-97.359225
+MEVE,Mesa Verde National Park,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Mesa Verde,37.23905,-108.462404
+VALL,Valles Caldera National Preserve,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Preserve,Valles Caldera,35.916783,-106.519572
+ROMO,Rocky Mountain National Park,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Rocky Mountain,40.355466,-105.697308
+FLFO,Florissant Fossil Beds National Monument,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Florissant Fossil Beds,38.91292,-105.281825
+AMIS,Amistad National Recreation Area,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Recreation Area,Amistad,29.477491,-101.09758
+PEFO,Petrified Forest National Park,AZ,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,Petrified Forest,34.983703,-109.787773
+ALFL,Alibates Flint Quarries National Monument,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Alibates Flint Quarries,35.581959,-101.671709
+LAMR,Lake Meredith National Recreation Area,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Recreation Area,Lake Meredith,35.619437,-101.681384
+WHSA,White Sands National Park,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Park,White Sands,32.778336,-106.32535
+PETR,Petroglyph National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,Petroglyph,35.139148,-106.749153
+SAAN,San Antonio Missions National Historical Park,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,San Antonio Missions,29.332731,-98.428893
+PAAL,Palo Alto Battlefield National Historical Park,TX,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historical Park,Palo Alto Battlefield,26.023916,-97.46289
+BEOL,Bent's Old Fort National Historic Site,CO,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Historic Site,Bent's Old Fort,38.039775,-103.42665
+ELMA,El Malpais National Monument,NM,IMR,IMR_DEM.TIF,IMR_LC_2016.TIF,National Monument,El Malpais,34.883545,-107.996828
+BRVB,Brown v. Board of Education National Historic Site,KS,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Brown V Board Of Education,39.037933,-95.676144
+ULSG,Ulysses S. Grant National Historic Site,MO,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Ulysses S Grant,38.551824,-90.351693
+GRPO,Grand Portage National Monument,MI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Grand Portage,47.999682,-89.75572
+JECA,Jewel Cave National Monument,SD,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Jewel Cave,43.731029,-103.829994
+FOLS,Fort Larned National Historic Site,KS,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Fort Larned,38.18047,-99.218368
+PEVI,Perry's Victory and International Peace Memorial,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Memorial,Perry's Victory & International Peace,41.654498,-82.811579
+JAGA,James A. Garfield National Historic Site,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,James A Garfield,41.664865,-81.350866
+PIPE,Pipestone National Monument,MN,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Pipestone,44.013519,-96.324755
+ARPO,Arkansas Post National Memorial,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Memorial,Arkansas Post,34.020725,-91.308363
+MORU,Mount Rushmore National Memorial,SD,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Memorial,Mount Rushmore,43.880369,-103.452519
+JEFF,Gateway Arch National Park,MO,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Gateway Arch,38.622116,-90.180396
+GERO,George Rogers Clark National Historical Park,IN,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historical Park,George Rogers Clark,38.679127,-87.535452
+KNRI,Knife River Indian Villages National Historic Site,ND,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Knife River Indian Villages,47.353898,-101.385719
+SCBL,Scotts Bluff National Monument,NE,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Scotts Bluff,41.834761,-103.707243
+AGFO,Agate Fossil Beds National Monument,NE,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Agate Fossil Beds,42.421703,-103.753885
+RRBH,Ronald Reagan Boyhood Home National Historic Site,IL,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Ronald Reagan Boyhood Home,41.836232,-89.480292
+CHYO,Charles Young Buffalo Soldiers National Monument,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Charles Young Buffalo Soldiers,39.708178,-83.893286
+DAAV,Dayton Aviation Heritage National Historical Park,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historical Park,Dayton Aviation Heritage,39.803968,-84.101606
+LIBO,Lincoln Boyhood National Memorial,IN,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Memorial,Lincoln Boyhood,38.11817,-86.996569
+TAPR,Tallgrass Prairie National Preserve,KS,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Preserve,Tallgrass Prairie,38.440222,-96.567078
+LOSA,Lower Saint Croix National Scenic Riverway,WI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Scenic Riverway,Lower Saint Croix,45.344898,-92.741493
+WICA,Wind Cave National Park,SD,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Wind Cave,43.580095,-103.439479
+PULL,Pullman National Monument,IL,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Pullman,41.694291,-87.608926
+VOYA,Voyageurs National Park,MN,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Voyageurs,48.483547,-92.838101
+FOSM,Fort Smith National Historic Site,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Fort Smith,35.388324,-94.43494
+LECL,Lewis and Clark National Historic Trail,NE,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Trail,Lewis and Clark,40.664145,-95.832534
+LIHO,Lincoln Home National Historic Site,IL,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Lincoln Home,39.797156,-89.645134
+THRO,Theodore Roosevelt National Park,ND,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Theodore Roosevelt,46.953592,-103.42997
+APIS,Apostle Islands National Lakeshore,WI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Lakeshore,Apostle Islands,46.963491,-90.660423
+KEWE,Keweenaw National Historical Park,MI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historical Park,Keweenaw,47.138156,-88.522807
+HOME,Homestead National Monument,NE,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Homestead,40.287964,-96.834025
+RIRA,River Raisin National Battlefield Park,MI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Battlefield Park,River Raisin,41.912964,-83.376179
+MISS,Mississippi National River and Recreation Area,MN,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National River and Recreation Area,Mississippi,44.772235,-93.046475
+HSTR,Harry S Truman National Historic Site,MO,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Harry S Truman,38.901192,-94.518572
+CHSC,Little Rock Central High School National Historic Site,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Little Rock Central High School,34.736943,-92.299733
+WICL,President William Jefferson Clinton Birthplace Home National Historic Site,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,President William Jefferson Clinton Birthplace Home,33.66758,-93.596374
+FOUS,Fort Union Trading Post National Historic Site,ND,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Fort Union Trading Post,48.000814,-104.037584
+OZAR,Ozark National Scenic Riverway,MO,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Scenic Riverway,Ozark,37.147162,-91.256838
+FILA,First Ladies National Historic Site,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,First Ladies,40.796622,-81.375799
+WICR,Wilson's Creek National Battlefield,MO,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Battlefield,Wilson's Creek,37.099819,-93.409675
+GWCA,George Washington Carver National Monument,MO,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,George Washington Carver,36.986642,-94.355524
+SACN,Saint Croix National Scenic Riverway,WI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Scenic Riverway,Saint Croix,45.980215,-92.213982
+CUVA,Cuyahoga Valley National Park,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Cuyahoga Valley,41.259102,-81.570988
+IATR,Ice Age National Scenic Trail,WI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Scenic Trail,Ice Age,43.07858,-89.616784
+HEHO,Herbert Hoover National Historic Site,IA,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Herbert Hoover,41.667924,-91.352419
+FOSC,Fort Scott National Historic Site,KS,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Fort Scott,37.843617,-94.70445
+HOCU,Hopewell Culture National Historical Park,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historical Park,Hopewell Culture,39.279394,-83.080393
+BADL,Badlands National Park,SD,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Badlands,43.834002,-102.483262
+EFMO,Effigy Mounds National Monument,IA,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Monument,Effigy Mounds,43.081647,-91.197597
+NIOB,Niobrara National Scenic River,NE,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Scenic River,Niobrara,42.725866,-99.918279
+PERI,Pea Ridge National Military Park,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Military Park,Pea Ridge,36.454379,-94.034684
+WIHO,William Howard Taft National Historic Site,OH,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,William Howard Taft,39.119704,-84.50759
+ISRO,Isle Royale National Park,MI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Isle Royale,48.01098,-88.828494
+MNRR,Missouri National Recreation River,SD,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Recreation River,Missouri,42.766758,-97.595662
+MIMI,Minuteman Missile National Historic Site,SD,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Minuteman Missile,43.844577,-101.948572
+INDU,Indiana Dunes National Park,IN,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Indiana Dunes,41.637206,-87.097116
+SLBE,Sleeping Bear Dunes National Lakeshore,MI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Lakeshore,Sleeping Bear Dunes,45.111506,-86.026967
+NICO,Nicodemus National Historic Site,KS,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Historic Site,Nicodemus,39.39036,-99.616772
+HOSP,Hot Springs National Park,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Park,Hot Springs,34.511121,-93.063341
+BUFF,Buffalo National River,AR,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National River,Buffalo,35.968644,-92.907731
+PIRO,Pictured Rocks National Lakeshore,MI,MWR,MWR_DEM.TIF,MWR_LC_2016.TIF,National Lakeshore,Pictured Rocks,46.563731,-86.316074
+WOTR,Wolf Trap National Park for the Performing Arts,VA,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Wolf Trap NP for the Performing Arts,38.938491,-77.264764
+THIS,Theodore Roosevelt Island National Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Theodore Roosevelt Island,38.895841,-77.062419
+LYBA,Lyndon Baines Johnson Memorial Grove on the Potomac,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Lyndon Baines Johnson Memorial Grove,38.87858,-77.051458
+GREE,Greenbelt Park,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Greenbelt,38.983416,-76.897703
+CAWO,Carter G. Woodson National Historic Site,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Carter G. Woodson Home,38.910885,-77.024309
+MABE,Mary McLeod Bethune Council House National Historic Site,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Mary McLeod Bethune Council House,38.908183,-77.030965
+FOTH,Ford's Theatre National Historic Site,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Ford's Theatre,38.89668,-77.025777
+CLBA,Clara Barton National Historic Site,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Clara Barton,38.967629,-77.140097
+FOWA,Fort Washington Park,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Fort Washington,38.712177,-77.028751
+WAMO,Washington Monument,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Washington Monument,38.888652,-77.035466
+JEFM,Thomas Jefferson Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Thomas Jefferson Memorial,38.881014,-77.036326
+WHHO,White House,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,President's Park (White House),38.89704,-77.036554
+CATO,Catoctin Mountain Park,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Catoctin Mountain,39.650763,-77.4643
+FRDE,Franklin Delano Roosevelt Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Franklin Delano Roosevelt,38.883413,-77.043115
+WWII,World War II Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,World War II Memorial,38.889239,-77.040376
+VIVE,Vietnam Veterans Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Vietnam Veterans,38.890963,-77.047657
+KOWA,Korean War Veterans Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Korean War Veterans,38.887842,-77.047739
+COGA,Constitution Gardens,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Constitution Gardens,38.890935,-77.044093
+MLKM,"Martin Luther King, Jr., Memorial",DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Martin Luther King Jr,38.88628,-77.044255
+LINC,Lincoln Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Lincoln,38.889272,-77.050178
+MALL,National Mall,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,National Mall,38.889866,-77.022784
+PAAV,Pennsylvania Avenue National Historic Site,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Pennsylvania Avenue,38.893973,-77.023596
+WWIM,World War I Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,World War I,38.895933,-77.03286
+BEPA,Belmont-Paul Women's Equality National Monument,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Belmont-Paul Women's Equality,38.892323,-77.003861
+FRDO,Frederick Douglass National Historic Site,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Frederick Douglass,38.862982,-76.985074
+NACA,National Capital Parks,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Park,National Capital Parks,39.063193,-76.965159
+ROCR,Rock Creek Park,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Rock Creek Park,38.962892,-77.046027
+MANA,Manassas National Battlefield Park,VA,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Battlefield Park,Manassas,38.818951,-77.533331
+ANTI,Antietam National Battlefield,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Battlefield,Antietam,39.470151,-77.738073
+PRWI,Prince William Forest Park,VA,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Prince William Forest,38.585832,-77.387417
+MONO,Monocacy National Battlefield,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Battlefield,Monocacy,39.362065,-77.395617
+PISC,Piscataway Park,MD,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Other Designation,Piscataway,38.684757,-77.053072
+ARHO,"Arlington House, The Robert E. Lee Memorial",VA,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,"Arlington House, The Robert E. Lee Memorial",38.882153,-77.073524
+CHOH,Chesapeake and Ohio Canal National Historical Park,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Chesapeake and Ohio Canal,39.117881,-77.960859
+DDEM,Dwight D. Eisenhower Memorial,DC,NCR,NER_DEM.TIF,NER_LC_2016.TIF,Memorial,Dwight D. Eisenhower,38.887136,-77.018793
+HAFE,Harpers Ferry National Historical Park,WV,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Harpers Ferry,39.318688,-77.74201
+GWMP,George Washington Memorial Parkway,VA,NCR,NER_DEM.TIF,NER_LC_2016.TIF,National Parkway,George Washington,38.714986,-77.128842
+CEBE,Cedar Creek and Belle Grove National Historical Park,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Cedar Creek & Belle Grove,39.00935,-78.306193
+HOFR,Home of Franklin D. Roosevelt National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Home of Franklin D Roosevelt,41.765988,-73.925763
+BOHA,Boston Harbor Islands National Recreation Area,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Recreation Area,Boston Harbor Islands,42.262199,-70.939401
+SAPA,Saint Paul's Church National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Saint Paul's Church,40.892835,-73.825773
+CACL,Castle Clinton National Monument,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Castle Clinton,40.703478,-74.016806
+EDIS,Thomas Edison National Historical Park,NJ,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Thomas Edison,40.785971,-74.238211
+AFBG,African Burial Ground National Monument,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,African Burial Ground,40.714549,-74.004329
+EDAL,Edgar Allan Poe National Historic Site,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Edgar Allan Poe,39.961955,-75.150006
+BOAF,Boston African American National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Boston African American,42.357896,-71.067642
+ADAM,Adams National Historical Park,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Adams,42.256594,-71.011603
+THST,Thomas Stone National Historic Site,MD,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Thomas Stone,38.529344,-77.037813
+SAMA,Salem Maritime National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Salem Maritime,42.520245,-70.886409
+BOWA,Booker T. Washington National Monument,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Booker T Washington,37.115205,-79.731858
+FOST,Fort Stanwix National Monument,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Fort Stanwix,43.210534,-75.455576
+THKO,Thaddeus Kosciuszko National Memorial,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Thaddeus Kosciuszko,39.943453,-75.14732
+APCO,Appomattox Court House National Historical Park,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Appomattox Court House,37.380221,-78.79857
+PETE,Petersburg National Battlefield,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Battlefield,Petersburg,37.227995,-77.476022
+SAGA,Saint-Gaudens National National Historical Park,NH,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Saint-Gaudens,43.499173,-72.374537
+JOFI,John Fitzgerald Kennedy National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,John F Kennedy,42.346937,-71.123238
+ELRO,Eleanor Roosevelt National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Eleanor Roosevelt,41.761967,-73.898932
+FRHI,Friendship Hill National Historic Site,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Friendship Hill,39.775455,-79.92528
+THRB,Theodore Roosevelt Birthplace National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Theodore Roosevelt Birthplace,40.738593,-73.989013
+NEBE,New Bedford Whaling National Historical Park,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,New Bedford Whaling,41.635648,-70.923196
+SAHI,Sagamore Hill National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Sagamore Hill,40.885752,-73.497355
+WORI,Women's Rights National Historical Park,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Women's Rights,42.90262,-76.816558
+LONG,Longfellow House-Washington's Headquarters National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Longfellow,42.376989,-71.12637
+HOFU,Hopewell Furnace National Historic Site,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Hopewell Furnace,40.206072,-75.768116
+SPAR,Springfield Armory National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Springfield Armory,42.108304,-72.581126
+MAWA,Maggie L. Walker National Historic Site,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Maggie L. Walker,37.547501,-77.436945
+MORR,Morristown National Historical Park,NJ,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Morristown,40.765223,-74.534586
+MAVA,Martin Van Buren National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Martin Van Buren,42.366664,-73.708343
+GOIS,Governors Island National Monument,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Governors Island,40.691642,-74.016708
+JOFL,Johnstown Flood National Memorial,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Johnstown Flood,40.345868,-78.774252
+FLNI,Flight 93 National Memorial,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Flight 93,40.060612,-78.89457
+MABI,Marsh-Billings-Rockefeller National Historical Park,VT,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Marsh - Billings - Rockefeller,43.633421,-72.53477
+EISE,Eisenhower National Historic Site,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Eisenhower,39.795775,-77.265081
+FONE,Fort Necessity National Battlefield,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Battlefield,Fort Necessity,39.813057,-79.590332
+FOMC,Fort McHenry National Monument and Historic Shrine,MD,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument and Historic Shrine,Fort McHenry,39.263953,-76.580442
+SAIR,Saugus Iron Works National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Saugus Iron Works,42.468307,-71.007695
+ROWI,Roger Williams National Memorial,RI,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Roger Williams,41.829895,-71.410567
+ALPO,Allegheny Portage Railroad National Historic Site,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Allegheny Portage Railroad,40.446771,-78.574356
+BOST,Boston National Historical Park,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Boston,42.373378,-71.055377
+GEGR,General Grant National Memorial,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,General Grant,40.813434,-73.963076
+FRST,First State National Historical Park,DE,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,First State,39.830758,-75.563539
+PAGR,Paterson Great Falls National Historical Park,NJ,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Paterson Great Falls,40.915846,-74.180215
+WEFA,Weir Farm National Historic Site,CT,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Weir Farm,41.256758,-73.454525
+THRI,Theodore Roosevelt Inaugural National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Theodore Roosevelt Inaugural,42.901468,-78.872484
+VAMA,Vanderbilt Mansion National Historic Site,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Vanderbilt Mansion,41.796979,-73.942056
+GATE,Gateway National Recreation Area,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Recreation Area,Gateway,40.571501,-73.910087
+UPDE,Upper Delaware Scenic and Recreational River,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,Scenic and Recreational River,Upper Delaware,41.516957,-75.038401
+CACO,Cape Cod National Seashore,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Seashore,Cape Cod,41.960463,-70.043051
+FRLA,Frederick Law Olmsted National Historic Site,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Frederick Law Olmsted,42.324243,-71.132026
+GEWA,George Washington Birthplace National Monument,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,George Washington Birthplace,38.193626,-76.920794
+HAGR,Hamilton Grange National Memorial,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Hamilton Grange,40.821352,-73.948785
+HAMP,Hampton National Historic Site,MD,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Hampton,39.41753,-76.587812
+SACR,Saint Croix Island International Historic Site,ME,NER,NER_DEM.TIF,NER_LC_2016.TIF,International Historic Site,Saint Croix Island,45.128588,-67.133637
+STLI,Statue Of Liberty National Monument,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Statue Of Liberty,40.695761,-74.042356
+FRSP,Fredericksburg and Spotsylvania County Battlefields Memorial National Military Park,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Military Park,Fredericksburg & Spotsylvania,38.303639,-77.644829
+STON,Stonewall National Monument,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Stonewall,40.733389,-74.000686
+FEHA,Federal Hall National Memorial,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Memorial,Federal Hall,40.707315,-74.01026
+CAJO,Captain John Smith National Historic Trail,MD,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Trail,Captain John Smith,37.412743,-76.649374
+INDE,Independence National Historical Park,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Independence,39.95168,-75.148361
+MIMA,Minute Man National Historical Park,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Minute Man,42.4534,-71.307388
+KAWW,Katahdin Woods And Waters National Monument,ME,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Katahdin Woods And Waters,45.956524,-68.712135
+SARA,Saratoga National Historical Park,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Saratoga,42.998314,-73.629914
+VAFO,Valley Forge National Historical Park,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Valley Forge,40.10054,-75.445809
+FOMR,Fort Monroe National Monument,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Monument,Fort Monroe,37.016146,-76.301179
+COLO,Colonial National Historical Park,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Colonial,37.237902,-76.624777
+GETT,Gettysburg National Military Park,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Military Park,Gettysburg,39.815352,-77.232477
+ASIS,Assateague Island National Seashore,MD,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Seashore,Assateague Island,38.060006,-75.2463
+SHEN,Shenandoah National Park,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Park,Shenandoah,38.491199,-78.469099
+ACAD,Acadia National Park,ME,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Park,Acadia,44.316403,-68.303236
+BLUE,Bluestone National Scenic River,WV,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Scenic River,Bluestone,37.565524,-80.984084
+GARI,Gauley River National Recreation Area,WV,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Recreation Area,Gauley River,38.206041,-81.004433
+HATU,Harriet Tubman Underground Railroad National Historical Park,MD,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Harriet Tubman Underground Railroad,38.454864,-76.137345
+STEA,Steamtown National Historic Site,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historic Site,Steamtown,41.407231,-75.669736
+FIIS,Fire Island National Seashore,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Seashore,Fire Island,40.696835,-73.000941
+NERI,New River Gorge National River,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National River,New River Gorge,37.766519,-81.001326
+LOWE,Lowell National Historical Park,MA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Lowell,42.639219,-71.317086
+DEWA,Delaware Water Gap National Recreation Area,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Recreation Area,Delaware Water Gap,41.127018,-74.950981
+DELA,Delaware National Scenic River,PA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Scenic River,Delaware,41.032049,-74.947866
+HART,Harriet Tubman National Historical Park,NY,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Historical Park,Harriet Tubman,42.911737,-76.561193
+RICH,Richmond National Battlefield Park,VA,NER,NER_DEM.TIF,NER_LC_2016.TIF,National Battlefield Park,Richmond,37.578079,-77.308975
+BLRI,Blue Ridge Parkway,NC,NTR,NER_DEM.TIF,NER_LC_2016.TIF,Parkway,Blue Ridge Parkway,36.42683,-81.01938
+APPA,Appalachian National Scenic Trail,ME,NTR,NER_DEM.TIF,NER_LC_2016.TIF,National Scenic Trail,Appalachian,35.984102,-76.284797
+NOCO,North Country National Scenic Trail,MI,NTR,NER_DEM.TIF,NER_LC_2016.TIF,National Scenic Trail,North Country,46.392219,-89.983663
+AMME,American Memorial Park,MP,PWR,,PWR_LC_2016.TIF,Park,American Memorial Park,15.2168,145.72311
+PORE,Point Reyes National Seashore,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Seashore,Point Reyes,38.055007,-122.879727
+MANZ,Manzanar National Historic Site,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,Manzanar,36.725591,-118.154718
+PUHE,Pu'ukohola Heiau National Historic Site,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Historic Site,Puukohola Heiau,20.027722,-155.821163
+CABR,Cabrillo National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Cabrillo,32.67225,-117.241599
+SEQU,Sequoia National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Sequoia,36.507684,-118.575203
+KALA,Kalaupapa National Historical Park,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Historical Park,Kalaupapa,21.173106,-156.951158
+EUON,Eugene O'Neill National Historic Site,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,Eugene O'Neill,37.826045,-122.027157
+GRBA,Great Basin National Park,NV,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Great Basin,38.946095,-114.257966
+WHIS,Whiskeytown-Shasta-Trinity National Recreation Area,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Whiskeytown,40.61358,-122.60226
+FOPO,Fort Point National Historic Site,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,Fort Point,37.8084,-122.473717
+CHIS,Channel Islands National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Channel Islands,34.016551,-119.911141
+RORI,Rosie the Riveter/World War II Home Front National Historical Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Park,Rosie the Riveter WWII Home Front,37.908668,-122.360156
+CIRO,City of Rocks National Reserve,ID,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Reserve,City of Rocks,42.069884,-113.71241
+HAFO,Hagerman Fossil Beds National Monument,ID,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Hagerman Fossil Beds,42.790727,-114.944309
+FOVA,Fort Vancouver National Historic Site,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,Fort Vancouver,45.622327,-122.661692
+LABE,Lava Beds National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Lava Beds,41.759356,-121.516861
+KICA,Kings Canyon National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Kings Canyon,36.891687,-118.598111
+WHMI,Whitman Mission National Historic Site,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,Whitman Mission,46.041758,-118.464416
+PUHO,Pu'uhonua o Honaunau National Historical Park,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Historical Park,Pu`uhonua O Honaunau,19.409031,-155.900879
+DEPO,Devils Postpile National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Devils Postpile,37.615374,-119.087686
+SAFR,San Francisco Maritime National Historical Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Park,San Francisco Maritime,37.810066,-122.424425
+CECH,Cesar E. Chavez National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,César E. Chávez,35.227294,-118.561578
+PINN,Pinnacles National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Pinnacles,36.490396,-121.181168
+WAPA,War in the Pacific,GU,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Park,War in the Pacific,13.390011,144.692241
+ORCA,Oregon Caves National Monument and Preserve,OR,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Oregon Caves,42.103188,-123.401857
+GOGA,Golden Gate National Recreation Area,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Golden Gate,37.858877,-122.550566
+POCH,Port Chicago Naval Magazine National Memorial,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Memorial,Port Chicago Naval Magazine,38.056855,-122.03016
+JODA,John Day Fossil Beds National Monument,OR,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,John Day Fossil Beds,44.543136,-119.881036
+LAVO,Lassen Volcanic National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Lassen Volcanic,40.493503,-121.407604
+HONO,Honouliuli National Historic Site,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Historic Site,Honouliuli,21.388175,-158.057499
+MIIN,Minidoka National Historic Site,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,Minidoka,42.681043,-114.429066
+BIHO,Big Hole National Battlefield,MT,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Battlefield,Big Hole,45.646473,-113.645844
+MORA,Mount Rainier National Park,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Mount Rainier,46.860917,-121.705626
+CAMO,Castle Mountains National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Castle Mountain,35.22833,-115.093569
+YOSE,Yosemite National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Yosemite,37.848319,-119.557143
+NOCA,North Cascades National Park,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,North Cascades,48.833027,-121.205425
+NPSA,National Park of American Samoa,AS,PWR,AMSM_DEM.TIF,,National Park,National Park of American Samoa,-14.236873,-169.907628
+HALE,Haleakala National Park,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Park,Haleakala,20.706923,-156.159173
+LACH,Lake Chelan National Recreation Area,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Lake Chelan,48.353838,-120.683714
+CRMP,Craters of the Moon National Preserve,ID,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Preserve,Craters of the Moon,43.151857,-113.482754
+CRMO,Craters of the Moon National Monument,ID,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Craters of the Moon,43.402764,-113.520418
+CRLA,Crater Lake National Park,OR,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Crater Lake,42.941064,-122.132749
+ROLA,Ross Lake National Recreation Area,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Ross Lake,48.781498,-121.10394
+LAKE,Lake Mead National Recreation Area,NV,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Lake Mead,35.954454,-114.220622
+HAVO,Hawai'i Volcanoes National Park,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Park,Hawaii Volcanoes,19.377577,-155.469929
+KAHO,Kaloko-Honokohau National Historical Park,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Historical Park,Kaloko-Honokohau,19.680902,-156.030489
+JOTR,Joshua Tree National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Joshua Tree,33.915041,-115.842396
+TULE,Tule Lake National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Tule Lake,41.887279,-121.374482
+PERL,Pearl Harbor National Memorial,HI,PWR,HI_DEM.TIF,HI_LC_2001.TIF,National Memorial,Pearl Harbor,21.366993,-157.94141
+MUWO,Muir Woods National Monument,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Muir Woods,37.896575,-122.580795
+JOMU,John Muir National Historic Site,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historic Site,John Muir,37.982837,-122.13261
+OLYM,Olympic National Park,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Olympic,47.803284,-123.666456
+SAJH,San Juan Island National Historical Park,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Park,San Juan Island,48.462157,-123.06159
+REDW,Redwood National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Redwood,41.433108,-124.033731
+LEWI,Lewis and Clark National Historical Park,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Park,Lewis and Clark,46.286183,-123.963247
+NEPE,Nez Perce National Historical Park,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Park,Nez Perce,45.794459,-114.43815
+LARO,Lake Roosevelt National Recreation Area,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Lake Roosevelt,47.94264,-118.315648
+EBLA,Ebey's Landing National Historical Reserve,WA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Historical Reserve,Ebey's Landing,48.214155,-122.687719
+DEVA,Death Valley National Park,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Park,Death Valley,36.478224,-117.12976
+SAMO,Santa Monica Mountains National Recreation Area,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Recreation Area,Santa Monica Mountains,34.097744,-118.77087
+TUSK,Tule Springs Fossil Beds National Monument,NV,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Monument,Tule Springs Fossil Beds,36.388662,-115.31991
+MOJA,Mojave National Preserve,CA,PWR,PWR_DEM.TIF,PWR_LC_2016.TIF,National Preserve,Mojave,35.124208,-115.516811
+CASA,Castillo de San Marcos National Monument,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Castillo de San Marcos,29.897857,-81.312172
+TUPE,Tupelo National Battlefield,MS,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield,Tupelo,34.255577,-88.737086
+BRCR,Brices Cross Roads National Battlefield Site,MS,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield Site,Brices Cross Roads,34.50612,-88.728893
+FOSU,Fort Sumter National Monument,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Fort Sumter,32.753594,-79.870687
+NISI,Ninety Six National Historic Site,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Ninety Six,34.142735,-82.016361
+BUIS,Buck Island Reef National Monument,VI,SER,PR_VI_DEM.TIF,,National Monument,Buck Island Reef,17.810265,-64.622218
+ANJO,Andrew Johnson National Historic Site,TN,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Andrew Johnson,36.156245,-82.83709
+ABLI,Abraham Lincoln Birthplace National Historical Park,KY,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historical Park,Abraham Lincoln Birthplace,37.611976,-85.673326
+DRTO,Dry Tortugas National Park,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Park,Dry Tortugas,24.648829,-82.87177
+FOFR,Fort Frederica National Monument,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Fort Frederica,31.223555,-81.39452
+CANA,Canaveral National Seashore,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Seashore,Canaveral,28.786275,-80.754151
+TUAI,Tuskegee Airmen National Historic Site,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Tuskegee Airmen,32.455387,-85.679833
+SARI,Salt River Bay National Historical Park and Ecological Preserve,VI,SER,PR_VI_DEM.TIF,,National Historical Park,Salt River Bay,17.779085,-64.755194
+MACA,Mammoth Cave National Park,KY,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Park,Mammoth Cave,37.19758,-86.130895
+CARI,Cane River Creole National Historical Park,LA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historical Park,Cane River Creole,31.664442,-93.001313
+MOCR,Moores Creek National Battlefield,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield,Moores Creek,34.458208,-78.110311
+HOBE,Horseshoe Bend National Military Park,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Military Park,Horseshoe Bend,32.976688,-85.734136
+FOMA,Fort Matanzas National Monument,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Fort Matanzas,29.712149,-81.235675
+JELA,Jean Lafitte National Historical Park and Preserve,LA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historical Park and Preserve,Jean Lafitte,29.817378,-90.140216
+GUIS,Gulf Islands National Seashore,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Seashore,Gulf Islands,30.373063,-87.751225
+BISC,Biscayne National Park,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Park,Biscayne,25.490495,-80.210247
+FOPU,Fort Pulaski National Monument,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Fort Pulaski,32.03082,-80.933611
+WRBR,Wright Brothers National Memorial,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Memorial,Wright Brothers,36.016377,-75.669972
+SEMO,Selma to Montgomery National Historic Trail,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Trail,Selma to Montgomery,32.270821,-86.728237
+KIMO,Kings Mountain National Military Park,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Military Park,Kings Mountain,35.139006,-81.389788
+RUCA,Russell Cave National Monument,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Russell Cave,34.97402,-85.815603
+VICR,Virgin Islands Coral Reef National Monument,VI,SER,PR_VI_DEM.TIF,,National Monument,Virgin Islands Coral Reef,18.28996,-64.706834
+LIRI,Little River Canyon National Preserve,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Preserve,Little River Canyon,34.414566,-85.617361
+CHRI,Christiansted National Historic Site,VI,SER,PR_VI_DEM.TIF,,National Historic Site,Christiansted,17.734056,-64.729063
+DESO,De Soto National Memorial,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Memorial,De Soto,27.522726,-82.643354
+ANDE,Andersonville National Historic Site,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Andersonville,32.198317,-84.129889
+COWP,Cowpens National Battlefield,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield,Cowpens,35.131606,-81.809354
+MALU,"Martin Luther King, Jr., National Historic Site",GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Martin Luther King Jr.,33.75492,-84.372568
+FODO,Fort Donelson National Battlefield,TN,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield,Fort Donelson,36.487282,-87.924443
+JICA,Jimmy Carter National Historic Site,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Jimmy Carter,32.026318,-84.416067
+TUIN,Tuskegee Institute National Historic Site,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Tuskegee Institute,32.429621,-85.704885
+FOCA,Fort Caroline National Memorial,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Memorial,Fort Caroline,30.384683,-81.498021
+NATR,Natchez Trace Parkway,MS,SER,SER_DEM.TIF,SER_LC_2016.TIF,Parkway,Natchez Trace,34.186413,-89.050593
+CONG,Congaree National Park,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Park,Congaree,33.791868,-80.748665
+JAZZ,New Orleans Jazz National Historical Park,LA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historical Park,New Orleans Jazz,29.963031,-90.067497
+BICR,Birmingham Civil Rights National Monument,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Birmingham Civil Rights,33.515428,-86.814667
+STRI,Stones River National Battlefield,TN,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield,Stones River,35.876254,-86.430798
+CUIS,Cumberland Island National Seashore,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Seashore,Cumberland Island,30.857178,-81.451765
+EVER,Everglades National Park,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Park,Everglades,25.375058,-80.881472
+BICY,Big Cypress National Preserve,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Preserve,Big Cypress,25.970801,-81.081415
+VIIS,Virgin Islands National Park,VI,SER,PR_VI_DEM.TIF,,National Park,Virgin Islands,18.342566,-64.74524
+CALO,Cape Lookout National Seashore,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Seashore,Cape Lookout,34.823052,-76.3467
+POPO,Poverty Point National Monument,LA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Poverty Point,32.642098,-91.407926
+TIMU,Timucuan Ecological and Historic Preserve,FL,SER,SER_DEM.TIF,SER_LC_2016.TIF,Ecological and Historic Preserve,Timucuan,30.56599,-81.499738
+SAJU,San Juan National Historic Site,PR,SER,PR_VI_DEM.TIF,PR_LC_2001.TIF,National Historic Site,San Juan,18.467477,-66.118206
+CHCH,Chickamauga and Chattanooga National Military Park,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Military Park,Chickamauga and Chattanooga,34.919011,-85.299177
+GRSM,Great Smoky Mountains National Park,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Park,Great Smoky Mountains,35.60196,-83.507158
+CAHA,Cape Hatteras National Seashore,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Seashore,Cape Hatteras,35.239394,-75.618223
+BISO,Big South Fork National River and Recreation Area,TN,SER,SER_DEM.TIF,SER_LC_2016.TIF,National River and Recreation Area,Big South Fork,36.534655,-84.66524
+VICK,Vicksburg National Military Park,LA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Military Park,Vicksburg,32.365311,-90.764182
+CHPI,Charles Pinckney National Historic Site,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Charles Pinckney,32.845741,-79.82495
+REER,Reconstruction Era National Monument,SC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Reconstruction Era,32.385048,-80.634873
+CHAT,Chattahoochee River National Recreation Area,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Recreation Area,Chattahoochee River,33.973843,-84.25697
+CUGA,Cumberland Gap National Historical Park,KY,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historical Park,Cumberland Gap,36.62643,-83.60707
+FORA,Fort Raleigh National Historic Site,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Fort Raleigh,35.932411,-75.716462
+NATC,Natchez National Historical Park,MS,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historical Park,Natchez,31.543005,-91.392477
+MEMY,Medgar and Myrlie Evers Home National Monument,MS,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Medgar and Myrlie Evers Home,32.340867,-90.213588
+CANE,Camp Nelson National Monument,KY,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Camp Nelson,37.792845,-84.595435
+FRRI,Freedom Riders National Monument,AL,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Freedom Riders,33.634958,-85.905837
+OBRI,Obed Wild and Scenic River,TN,SER,SER_DEM.TIF,SER_LC_2016.TIF,Wild and Scenic River,Obed,36.092445,-84.772112
+MISP,Mill Springs Battlefield National Monument,KY,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Mill Springs Battlefield,37.056896,-84.753852
+KEMO,Kennesaw Mountain National Battlefield Park,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield Park,Kennesaw Mountain,33.953812,-84.592412
+GUCO,Guilford Courthouse National Military Park,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Military Park,Guilford Courthouse,36.132212,-79.842529
+SHIL,Shiloh National Battlefield,MS,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Battlefield,Shiloh,35.136597,-88.423166
+OCMU,Ocmulgee National Monument,GA,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Monument,Ocmulgee,32.823683,-83.59017
+CARL,Carl Sandburg Home National Historic Site,NC,SER,SER_DEM.TIF,SER_LC_2016.TIF,National Historic Site,Carl Sandburg Home,35.268046,-82.451153
