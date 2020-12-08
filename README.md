@@ -1,6 +1,11 @@
+# NMSIM-Python
+A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of input files and joining data from GIS databases.
+<br>
+<br>
+<br>
+
 <!-- MarkdownTOC autolink=true depth=3 bracket=round -->
 
-- [NMSIM-Python](#title)
 - [NMSIM Model Creation Workflow: Under a Site-Based Paradigm](#NMSIMworkflow)
   - [1. Initialize an NMSIM project from study area](#1-initialize)
   - [2. Create a site file (.sit) from metadata](#2-reciever)
@@ -14,12 +19,11 @@
 
 <!-- /MarkdownTOC -->
 
-# NMSIM-Python
-A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of input files and joining data from GIS databases.
-<br>
-<br>
-<br>
+
 # NMSIM Model Creation Workflow: Under a Site-Based Paradigm
+
+<img src=https://github.com/dbetchkal/NMSIM-Python/blob/pyproj_1p9/static/2020%2010%2022%20NMSIM%20source%20improvement%20schema.png width=700>
+<br>
 
 ## 1. Initialize an NMSIM project from study area
 ## 2. Create a site file (.sit) from metadata
@@ -27,7 +31,6 @@ A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of
 ## 4. Compile model to create site-specific analysis (.tis)
 ## 5. Review the results by comparing to acoustic measurements
 
-<img src=https://github.com/dbetchkal/NMSIM-Python/blob/pyproj_1p9/static/2020%2010%2022%20NMSIM%20source%20improvement%20schema.png width=700>
-<br>
+
 
 
