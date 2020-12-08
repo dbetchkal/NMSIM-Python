@@ -139,6 +139,47 @@ def point_buffer(lat, lon, km):
     return buf
 
 
+def interpolate_heading(start_heading, end_heading, num_points):
+    
+    """
+    Because heading is periodic, in many cases we cannot use 
+    simple linear interpolation to correctly space out values.
+    
+    Inputs
+    ------
+    start_headings (float): the heading of the first point
+    end_heading (float): the heading of the last point
+    num_points (int): the number of interpolated points desired between the first and last
+    
+    Returns
+    -------
+    headings (numpy array): an inclusive list of interpolated headings
+    
+    """
+
+    # first we need to know if the shortest path is through zero
+    passes_zero = np.abs(end_heading - start_heading) > 180
+
+    if(passes_zero):
+
+        # add 360 to the minimum value to ensure linearity
+        # note: this can reorder the sequence
+        headings = np.linspace(np.maximum(start_heading, end_heading), np.minimum(start_heading, end_heading) + 360, num_points)%360
+        
+        # correct for reordering if necessary
+        if(headings[0] != start_heading):
+            headings = headings[::-1]
+
+        return headings
+    
+    else:
+        
+        # this is standard linear interpolation
+        headings = np.linspace(start_heading, end_heading, num_points)
+        
+        return headings
+
+
 def create_NMSIM_site_file(project_dir, unit, site, long_utm, lat_utm, height):
 
     '''
@@ -403,7 +444,7 @@ def tracks_within(ds, site, year, search_within_km = 20, climb_ang_max = 20, air
                             utm_xi = np.linspace(row.long_UTM, data.loc[next_ind, "long_UTM"], interpSteps)[1:-1]
                             utm_yi = np.linspace(row.lat_UTM, data.loc[next_ind, "lat_UTM"], interpSteps)[1:-1]
                             cai = np.linspace(row.ClimbAngle, data.loc[next_ind, "ClimbAngle"], interpSteps)[1:-1]
-                            hi = np.linspace(row.heading, data.loc[next_ind, "heading"], interpSteps)[1:-1]
+                            hi = interpolate_heading(row.heading, data.loc[next_ind, "heading"], interpSteps)[1:-1]
                             vi = np.linspace(row.knots, data.loc[next_ind, "knots"], interpSteps)[1:-1]
 
                             # generate geometry objects for each new interpolated point
