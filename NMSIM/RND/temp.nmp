@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry type='NMPlotPlot' type_id='0012-fcf8-0000-cd60-0471-aea4-7cba-4866'>
+    <folder name='AreaAnnotations_Rules'>
+        <int name='NumRules' value='3'/>
+        <text name='Rules_AreaLayerName_1' value='Water'/>
+        <text name='Rules_AreaLayerName_2' value='Site Boundaries'/>
+        <text name='Rules_AreaLayerName_3' value='Area Annotations'/>
+        <text name='Rules_CategoryFilter_1' value='Water'/>
+        <text name='Rules_CategoryFilter_2' value='Site Boundary'/>
+        <text name='Rules_CategoryFilter_3' value='*'/>
+        <bool name='Rules_DrawOutline_1' value='false'/>
+        <bool name='Rules_DrawOutline_2' value='true'/>
+        <bool name='Rules_DrawOutline_3' value='true'/>
+        <bool name='Rules_Fill_1' value='true'/>
+        <bool name='Rules_Fill_2' value='false'/>
+        <bool name='Rules_Fill_3' value='false'/>
+        <folder name='Rules_FillColor_1'>
+            <int name='Blue' value='255'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_FillColor_2'>
+            <int name='Blue' value='255'/>
+            <int name='Green' value='255'/>
+            <int name='Red' value='255'/>
+        </folder>
+        <folder name='Rules_FillColor_3'>
+            <int name='Blue' value='255'/>
+            <int name='Green' value='255'/>
+            <int name='Red' value='255'/>
+        </folder>
+        <folder name='Rules_LabelFont_1'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_2'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_3'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <text name='Rules_LabelLayerName_1' value='Water Labels'/>
+        <text name='Rules_LabelLayerName_2' value='Site Boundary Labels'/>
+        <text name='Rules_LabelLayerName_3' value='Area Annotation Labels'/>
+        <text name='Rules_NameFilter_1' value='*'/>
+        <text name='Rules_NameFilter_2' value='*'/>
+        <text name='Rules_NameFilter_3' value='*'/>
+        <folder name='Rules_OutlineColor_1'>
+            <int name='Blue' value='255'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_OutlineColor_2'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='255'/>
+            <int name='Red' value='255'/>
+        </folder>
+        <folder name='Rules_OutlineColor_3'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_OutlineDashLinePattern_1'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_OutlineDashLinePattern_2'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_OutlineDashLinePattern_3'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <float name='Rules_OutlineWidthInMillimeters_1' value='1'/>
+        <float name='Rules_OutlineWidthInMillimeters_2' value='1'/>
+        <float name='Rules_OutlineWidthInMillimeters_3' value='0.20000000000000001'/>
+        <bool name='Rules_Show_1' value='false'/>
+        <bool name='Rules_Show_2' value='false'/>
+        <bool name='Rules_Show_3' value='false'/>
+        <bool name='Rules_ShowLabel_1' value='false'/>
+        <bool name='Rules_ShowLabel_2' value='false'/>
+        <bool name='Rules_ShowLabel_3' value='false'/>
+    </folder>
+    <bool name='AreaAnnotations_Show' value='true'/>
+    <folder name='BackgroundColor'>
+        <int name='Blue' value='255'/>
+        <int name='Green' value='255'/>
+        <int name='Red' value='255'/>
+    </folder>
+    <folder name='BackgroundMaps_Layers'>
+        <sequence name='Layers'>
+        </sequence>
+    </folder>
+    <bool name='BackgroundMaps_Show' value='true'/>
+    <folder name='ColorGradient_Options'>
+        <folder name='AutomaticHighColor'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='255'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='AutomaticLowColor'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='128'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <int name='ColorInterpolationSpace' value='1'/>
+        <int name='ColorMappingComputationMethod' value='0'/>
+        <folder name='ManualPoints_C_1'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='128'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='ManualPoints_C_2'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='255'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <int name='ManualPoints_Num' value='2'/>
+        <float name='ManualPoints_Z_1' value='50'/>
+        <float name='ManualPoints_Z_2' value='100'/>
+        <int name='Resolution' value='200'/>
+    </folder>
+    <bool name='ColorGradient_Show' value='false'/>
+    <folder name='ContourCells_Color_ActiveEdge'>
+        <int name='Blue' value='255'/>
+        <int name='Green' value='0'/>
+        <int name='Red' value='255'/>
+    </folder>
+    <folder name='ContourCells_Color_InactiveEdge'>
+        <int name='Blue' value='192'/>
+        <int name='Green' value='192'/>
+        <int name='Red' value='192'/>
+    </folder>
+    <bool name='ContourCells_Show' value='false'/>
+    <float name='ContourLabelAutomaticSpacing' value='150'/>
+    <int name='ContourLabelMethod' value='1'/>
+    <int name='ContourLevels_Automatic_NumPrimaryLevels' value='5'/>
+    <int name='ContourLevels_Automatic_NumSecondaryLevels' value='1'/>
+    <float name='ContourLevels_Manual_HighestPrimaryLevel' value='85'/>
+    <float name='ContourLevels_Manual_LowestPrimaryLevel' value='65'/>
+    <int name='ContourLevels_Manual_NumSecondaryLevels' value='1'/>
+    <float name='ContourLevels_Manual_PrimaryLevelSpacing' value='10'/>
+    <sequence name='ContourLevels_ManualExact_Levels'>
+        <folder>
+            <text name='Levels' value='.20'/>
+            <folder name='StyleID'>
+                <text name='Name' value='Primary Contours'/>
+                <text name='UID' value='0012-fa88-0000-cc96-040f-8203-fec5-f939'/>
+            </folder>
+        </folder>
+    </sequence>
+    <int name='ContourLevelsMethod' value='2'/>
+    <float name='ContourSmoothing_MaximumAngle' value='3'/>
+    <float name='ContourSmoothing_MinimumSegmentLength' value='1'/>
+    <bool name='ContourSmoothing_SmoothContours' value='true'/>
+    <float name='ContourSmoothing_Tension' value='2'/>
+    <sequence name='ContourStyles'>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Primary Contours'/>
+                <text name='UID' value='0012-fa88-0000-cc96-040f-8203-fec5-f939'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.59999999999999998'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='128'/>
+                <int name='Green' value='128'/>
+                <int name='Red' value='128'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Secondary Contours'/>
+                <text name='UID' value='0012-fa88-0000-cc96-040f-8203-fec5-f93a'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.10000000000000001'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Thick with Labels'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-0446'/>
+            </folder>
+            <text name='Label' value='{Level}'/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.80000000000000004'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Thick without Labels'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-0447'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.80000000000000004'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Thin without Labels'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-0448'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.20000000000000001'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='4'/>
+                    <float value='4'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Thin Dashed'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-0449'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.20000000000000001'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='0.20000000000000001'/>
+                    <float value='1.8'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <bool name='FillContour' value='false'/>
+            <folder name='ID'>
+                <text name='Name' value='Thin Dotted'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-044a'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.20000000000000001'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='128'/>
+                <int name='Green' value='128'/>
+                <int name='Red' value='255'/>
+            </folder>
+            <bool name='FillContour' value='true'/>
+            <folder name='ID'>
+                <text name='Name' value='Red Filled'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-044b'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.20000000000000001'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='128'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='255'/>
+            </folder>
+            <bool name='FillContour' value='true'/>
+            <folder name='ID'>
+                <text name='Name' value='Yellow Filled'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-044c'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.20000000000000001'/>
+        </folder>
+        <folder>
+            <folder name='Color'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <text name='ContourLabelsLayerName' value='ContourLabel'/>
+            <text name='ContourLineLayerName' value='ContourLine'/>
+            <folder name='DashLinePattern'>
+                <int name='FamilyCode' value='0'/>
+                <bool name='FirstSegmentIsPenDown' value='true'/>
+                <sequence name='SegmentLengths'>
+                    <float value='9.9000000000000007E99'/>
+                </sequence>
+            </folder>
+            <folder name='FillColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='128'/>
+            </folder>
+            <bool name='FillContour' value='true'/>
+            <folder name='ID'>
+                <text name='Name' value='Green Filled'/>
+                <text name='UID' value='0012-ddf4-0000-cc9b-0416-de69-ef12-044d'/>
+            </folder>
+            <text name='Label' value=''/>
+            <folder name='LabelFont'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Times New Roman'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <float name='WidthInMillimeters' value='0.20000000000000001'/>
+        </folder>
+    </sequence>
+    <int name='ContourTopology' value='0'/>
+    <folder name='GridPoints_Color'>
+        <int name='Blue' value='0'/>
+        <int name='Green' value='0'/>
+        <int name='Red' value='255'/>
+    </folder>
+    <int name='GridPoints_GridPointStep' value='1'/>
+    <bool name='GridPoints_Label' value='false'/>
+    <folder name='GridPoints_LabelFont'>
+        <float name='Angle' value='0'/>
+        <int name='CharacterSet' value='0'/>
+        <int name='FontFamily' value='1'/>
+        <float name='Height' value='12'/>
+        <int name='ItalicStyle' value='0'/>
+        <int name='Pitch' value='1'/>
+        <text name='Typeface' value='Times New Roman'/>
+        <int name='UnderlineStyle' value='0'/>
+        <int name='Weight' value='400'/>
+    </folder>
+    <int name='GridPoints_MaxSubgridNestingLevelToShow' value='999'/>
+    <bool name='GridPoints_Show' value='false'/>
+    <folder name='GridPoints_Symbol'>
+        <folder name='Font'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='2'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Symbol'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <text name='Name' value='Small Cross'/>
+        <int name='SymbolType' value='0'/>
+        <text name='Text' value='A'/>
+    </folder>
+    <int name='HomeView' value='0'/>
+    <uint name='HomeViewAutomaticElements' value='1'/>
+    <folder name='HomeViewManuallySpecifiedArea'>
+        <float name='ExtentX' value='200'/>
+        <float name='ExtentY' value='200'/>
+        <float name='OriginX' value='-100'/>
+        <float name='OriginY' value='-100'/>
+    </folder>
+    <int name='HomeViewManuallySpecifiedAreaCoordinateSystem' value='1'/>
+    <folder name='Legend_Form'>
+        <folder name='RootElement'>
+            <folder name='BackgroundColor'>
+                <int name='Blue' value='255'/>
+                <int name='Green' value='255'/>
+                <int name='Red' value='255'/>
+            </folder>
+            <folder name='BottomBorderColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <float name='BottomBorderThickness' value='0'/>
+            <float name='BottomMargin' value='0'/>
+            <folder name='ChildElement_1'>
+                <folder name='BackgroundColor'>
+                    <int name='Blue' value='255'/>
+                    <int name='Green' value='255'/>
+                    <int name='Red' value='255'/>
+                </folder>
+                <folder name='BottomBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='BottomBorderThickness' value='0.10000000000000001'/>
+                <float name='BottomMargin' value='0'/>
+                <text name='Content' value='{Plot}'/>
+                <int name='ElementType' value='0'/>
+                <folder name='Font'>
+                    <float name='Angle' value='0'/>
+                    <int name='CharacterSet' value='0'/>
+                    <int name='FontFamily' value='2'/>
+                    <float name='Height' value='10'/>
+                    <int name='ItalicStyle' value='0'/>
+                    <int name='Pitch' value='1'/>
+                    <text name='Typeface' value='Arial'/>
+                    <int name='UnderlineStyle' value='0'/>
+                    <int name='Weight' value='700'/>
+                </folder>
+                <folder name='Height'>
+                    <float name='AbsoluteSize' value='10'/>
+                    <int name='AbsoluteSizeModifier' value='0'/>
+                    <int name='ContentRelativeSizeModifier' value='1'/>
+                    <int name='Method' value='3'/>
+                </folder>
+                <int name='HorizontalJustification' value='1'/>
+                <folder name='LeftBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='LeftBorderThickness' value='0.10000000000000001'/>
+                <float name='LeftMargin' value='0'/>
+                <int name='NumChildElements' value='0'/>
+                <folder name='RightBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='RightBorderThickness' value='0.10000000000000001'/>
+                <float name='RightMargin' value='0'/>
+                <folder name='TextColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <int name='TileDirection' value='1'/>
+                <folder name='TopBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='TopBorderThickness' value='0.10000000000000001'/>
+                <float name='TopMargin' value='0'/>
+                <int name='VerticalJustification' value='1'/>
+                <folder name='Width'>
+                    <float name='AbsoluteSize' value='10'/>
+                    <int name='AbsoluteSizeModifier' value='0'/>
+                    <int name='ContentRelativeSizeModifier' value='1'/>
+                    <int name='Method' value='3'/>
+                </folder>
+            </folder>
+            <folder name='ChildElement_2'>
+                <folder name='BackgroundColor'>
+                    <int name='Blue' value='255'/>
+                    <int name='Green' value='255'/>
+                    <int name='Red' value='255'/>
+                </folder>
+                <folder name='BottomBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='BottomBorderThickness' value='0'/>
+                <float name='BottomMargin' value='2'/>
+                <text name='Content' value='{ConciseGridDescription}&#10;This plot of &#34;{GridFilename}&#34; was created at {CurrentTime} on {CurrentDate}.'/>
+                <int name='ElementType' value='0'/>
+                <folder name='Font'>
+                    <float name='Angle' value='0'/>
+                    <int name='CharacterSet' value='0'/>
+                    <int name='FontFamily' value='2'/>
+                    <float name='Height' value='10'/>
+                    <int name='ItalicStyle' value='0'/>
+                    <int name='Pitch' value='1'/>
+                    <text name='Typeface' value='Arial'/>
+                    <int name='UnderlineStyle' value='0'/>
+                    <int name='Weight' value='700'/>
+                </folder>
+                <folder name='Height'>
+                    <float name='AbsoluteSize' value='10'/>
+                    <int name='AbsoluteSizeModifier' value='0'/>
+                    <int name='ContentRelativeSizeModifier' value='1'/>
+                    <int name='Method' value='0'/>
+                </folder>
+                <int name='HorizontalJustification' value='1'/>
+                <folder name='LeftBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='LeftBorderThickness' value='0'/>
+                <float name='LeftMargin' value='5'/>
+                <int name='NumChildElements' value='0'/>
+                <folder name='RightBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='RightBorderThickness' value='0'/>
+                <float name='RightMargin' value='5'/>
+                <folder name='TextColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <int name='TileDirection' value='1'/>
+                <folder name='TopBorderColor'>
+                    <int name='Blue' value='0'/>
+                    <int name='Green' value='0'/>
+                    <int name='Red' value='0'/>
+                </folder>
+                <float name='TopBorderThickness' value='0'/>
+                <float name='TopMargin' value='2'/>
+                <int name='VerticalJustification' value='1'/>
+                <folder name='Width'>
+                    <float name='AbsoluteSize' value='10'/>
+                    <int name='AbsoluteSizeModifier' value='0'/>
+                    <int name='ContentRelativeSizeModifier' value='1'/>
+                    <int name='Method' value='0'/>
+                </folder>
+            </folder>
+            <text name='Content' value=''/>
+            <int name='ElementType' value='1'/>
+            <folder name='Font'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='0'/>
+                <int name='FontFamily' value='2'/>
+                <float name='Height' value='10'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Arial'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='700'/>
+            </folder>
+            <folder name='Height'>
+                <float name='AbsoluteSize' value='10'/>
+                <int name='AbsoluteSizeModifier' value='0'/>
+                <int name='ContentRelativeSizeModifier' value='1'/>
+                <int name='Method' value='0'/>
+            </folder>
+            <int name='HorizontalJustification' value='1'/>
+            <folder name='LeftBorderColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <float name='LeftBorderThickness' value='0'/>
+            <float name='LeftMargin' value='0'/>
+            <int name='NumChildElements' value='2'/>
+            <folder name='RightBorderColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <float name='RightBorderThickness' value='0'/>
+            <float name='RightMargin' value='0'/>
+            <folder name='TextColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <int name='TileDirection' value='1'/>
+            <folder name='TopBorderColor'>
+                <int name='Blue' value='0'/>
+                <int name='Green' value='0'/>
+                <int name='Red' value='0'/>
+            </folder>
+            <float name='TopBorderThickness' value='0'/>
+            <float name='TopMargin' value='0'/>
+            <int name='VerticalJustification' value='1'/>
+            <folder name='Width'>
+                <float name='AbsoluteSize' value='10'/>
+                <int name='AbsoluteSizeModifier' value='0'/>
+                <int name='ContentRelativeSizeModifier' value='1'/>
+                <int name='Method' value='0'/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name='LineAnnotations_Rules'>
+        <int name='NumRules' value='8'/>
+        <text name='Rules_CategoryFilter_1' value='Runway'/>
+        <text name='Rules_CategoryFilter_2' value='Flight Track'/>
+        <text name='Rules_CategoryFilter_3' value='Primary Road'/>
+        <text name='Rules_CategoryFilter_4' value='Secondary Road'/>
+        <text name='Rules_CategoryFilter_5' value='Other Road'/>
+        <text name='Rules_CategoryFilter_6' value='Railroad'/>
+        <text name='Rules_CategoryFilter_7' value='Water'/>
+        <text name='Rules_CategoryFilter_8' value='*'/>
+        <folder name='Rules_Color_1'>
+            <int name='Blue' value='128'/>
+            <int name='Green' value='128'/>
+            <int name='Red' value='128'/>
+        </folder>
+        <folder name='Rules_Color_2'>
+            <int name='Blue' value='192'/>
+            <int name='Green' value='192'/>
+            <int name='Red' value='192'/>
+        </folder>
+        <folder name='Rules_Color_3'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='255'/>
+        </folder>
+        <folder name='Rules_Color_4'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='128'/>
+        </folder>
+        <folder name='Rules_Color_5'>
+            <int name='Blue' value='128'/>
+            <int name='Green' value='128'/>
+            <int name='Red' value='128'/>
+        </folder>
+        <folder name='Rules_Color_6'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_Color_7'>
+            <int name='Blue' value='255'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_Color_8'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_DashLinePattern_1'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_2'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_3'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_4'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_5'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_6'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_7'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_DashLinePattern_8'>
+            <int name='FamilyCode' value='0'/>
+            <bool name='FirstSegmentIsPenDown' value='true'/>
+            <sequence name='SegmentLengths'>
+                <float value='9.9000000000000007E99'/>
+            </sequence>
+        </folder>
+        <folder name='Rules_LabelFont_1'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_2'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_3'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_4'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_5'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_6'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_7'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_8'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <text name='Rules_LabelLayerName_1' value='Runway Labels'/>
+        <text name='Rules_LabelLayerName_2' value='Flight Track Labels'/>
+        <text name='Rules_LabelLayerName_3' value='Primary Road Labels'/>
+        <text name='Rules_LabelLayerName_4' value='Secondary Road Labels'/>
+        <text name='Rules_LabelLayerName_5' value='Other Road Labels'/>
+        <text name='Rules_LabelLayerName_6' value='Railroad Labels'/>
+        <text name='Rules_LabelLayerName_7' value='Water Labels'/>
+        <text name='Rules_LabelLayerName_8' value='Line Annotation Labels'/>
+        <text name='Rules_LineLayerName_1' value='Runways'/>
+        <text name='Rules_LineLayerName_2' value='Flight Tracks'/>
+        <text name='Rules_LineLayerName_3' value='Primary Roads'/>
+        <text name='Rules_LineLayerName_4' value='Secondary Roads'/>
+        <text name='Rules_LineLayerName_5' value='Other Roads'/>
+        <text name='Rules_LineLayerName_6' value='Railroads'/>
+        <text name='Rules_LineLayerName_7' value='Water'/>
+        <text name='Rules_LineLayerName_8' value='Line Annotations'/>
+        <text name='Rules_NameFilter_1' value='*'/>
+        <text name='Rules_NameFilter_2' value='*'/>
+        <text name='Rules_NameFilter_3' value='*'/>
+        <text name='Rules_NameFilter_4' value='*'/>
+        <text name='Rules_NameFilter_5' value='*'/>
+        <text name='Rules_NameFilter_6' value='*'/>
+        <text name='Rules_NameFilter_7' value='*'/>
+        <text name='Rules_NameFilter_8' value='*'/>
+        <bool name='Rules_Show_1' value='true'/>
+        <bool name='Rules_Show_2' value='false'/>
+        <bool name='Rules_Show_3' value='false'/>
+        <bool name='Rules_Show_4' value='false'/>
+        <bool name='Rules_Show_5' value='false'/>
+        <bool name='Rules_Show_6' value='false'/>
+        <bool name='Rules_Show_7' value='false'/>
+        <bool name='Rules_Show_8' value='false'/>
+        <bool name='Rules_ShowLabel_1' value='false'/>
+        <bool name='Rules_ShowLabel_2' value='false'/>
+        <bool name='Rules_ShowLabel_3' value='false'/>
+        <bool name='Rules_ShowLabel_4' value='false'/>
+        <bool name='Rules_ShowLabel_5' value='false'/>
+        <bool name='Rules_ShowLabel_6' value='false'/>
+        <bool name='Rules_ShowLabel_7' value='false'/>
+        <bool name='Rules_ShowLabel_8' value='false'/>
+        <float name='Rules_WidthInMillimeters_1' value='2'/>
+        <float name='Rules_WidthInMillimeters_2' value='0.20000000000000001'/>
+        <float name='Rules_WidthInMillimeters_3' value='1'/>
+        <float name='Rules_WidthInMillimeters_4' value='0.20000000000000001'/>
+        <float name='Rules_WidthInMillimeters_5' value='0.20000000000000001'/>
+        <float name='Rules_WidthInMillimeters_6' value='0.20000000000000001'/>
+        <float name='Rules_WidthInMillimeters_7' value='1'/>
+        <float name='Rules_WidthInMillimeters_8' value='0.20000000000000001'/>
+    </folder>
+    <bool name='LineAnnotations_Show' value='true'/>
+    <folder name='PointAnnotations_Rules'>
+        <int name='NumRules' value='5'/>
+        <text name='Rules_CategoryFilter_1' value='Point of Interest'/>
+        <text name='Rules_CategoryFilter_2' value='Navigational Aid'/>
+        <text name='Rules_CategoryFilter_3' value='VTOL Pad'/>
+        <text name='Rules_CategoryFilter_4' value='Static Pad'/>
+        <text name='Rules_CategoryFilter_5' value='*'/>
+        <folder name='Rules_Color_1'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_Color_2'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_Color_3'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_Color_4'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_Color_5'>
+            <int name='Blue' value='0'/>
+            <int name='Green' value='0'/>
+            <int name='Red' value='0'/>
+        </folder>
+        <folder name='Rules_LabelFont_1'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_2'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_3'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_4'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <folder name='Rules_LabelFont_5'>
+            <float name='Angle' value='0'/>
+            <int name='CharacterSet' value='0'/>
+            <int name='FontFamily' value='1'/>
+            <float name='Height' value='12'/>
+            <int name='ItalicStyle' value='0'/>
+            <int name='Pitch' value='1'/>
+            <text name='Typeface' value='Times New Roman'/>
+            <int name='UnderlineStyle' value='0'/>
+            <int name='Weight' value='400'/>
+        </folder>
+        <text name='Rules_LabelLayerName_1' value='Points of Interest Labels'/>
+        <text name='Rules_LabelLayerName_2' value='Navigational Aid Labels'/>
+        <text name='Rules_LabelLayerName_3' value='VTOL Pad Labels'/>
+        <text name='Rules_LabelLayerName_4' value='Static Pad Labels'/>
+        <text name='Rules_LabelLayerName_5' value='Point Annotation Labels'/>
+        <text name='Rules_NameFilter_1' value='*'/>
+        <text name='Rules_NameFilter_2' value='*'/>
+        <text name='Rules_NameFilter_3' value='*'/>
+        <text name='Rules_NameFilter_4' value='*'/>
+        <text name='Rules_NameFilter_5' value='*'/>
+        <text name='Rules_PointLayerName_1' value='Points of Interest'/>
+        <text name='Rules_PointLayerName_2' value='Navigational Aids'/>
+        <text name='Rules_PointLayerName_3' value='VTOL Pads'/>
+        <text name='Rules_PointLayerName_4' value='Static Pads'/>
+        <text name='Rules_PointLayerName_5' value='Point Annotations'/>
+        <bool name='Rules_Show_1' value='false'/>
+        <bool name='Rules_Show_2' value='false'/>
+        <bool name='Rules_Show_3' value='false'/>
+        <bool name='Rules_Show_4' value='false'/>
+        <bool name='Rules_Show_5' value='false'/>
+        <bool name='Rules_ShowLabel_1' value='false'/>
+        <bool name='Rules_ShowLabel_2' value='false'/>
+        <bool name='Rules_ShowLabel_3' value='false'/>
+        <bool name='Rules_ShowLabel_4' value='false'/>
+        <bool name='Rules_ShowLabel_5' value='false'/>
+        <folder name='Rules_Symbol_1'>
+            <folder name='Font'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='2'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Symbol'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <text name='Name' value='Medium Star'/>
+            <int name='SymbolType' value='0'/>
+            <text name='Text' value='A'/>
+        </folder>
+        <folder name='Rules_Symbol_2'>
+            <folder name='Font'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='2'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Symbol'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <text name='Name' value='Navigational Aid'/>
+            <int name='SymbolType' value='0'/>
+            <text name='Text' value='A'/>
+        </folder>
+        <folder name='Rules_Symbol_3'>
+            <folder name='Font'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='2'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Symbol'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <text name='Name' value='Helipad'/>
+            <int name='SymbolType' value='0'/>
+            <text name='Text' value='A'/>
+        </folder>
+        <folder name='Rules_Symbol_4'>
+            <folder name='Font'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='2'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Symbol'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <text name='Name' value='Static Pad'/>
+            <int name='SymbolType' value='0'/>
+            <text name='Text' value='A'/>
+        </folder>
+        <folder name='Rules_Symbol_5'>
+            <folder name='Font'>
+                <float name='Angle' value='0'/>
+                <int name='CharacterSet' value='2'/>
+                <int name='FontFamily' value='1'/>
+                <float name='Height' value='12'/>
+                <int name='ItalicStyle' value='0'/>
+                <int name='Pitch' value='1'/>
+                <text name='Typeface' value='Symbol'/>
+                <int name='UnderlineStyle' value='0'/>
+                <int name='Weight' value='400'/>
+            </folder>
+            <text name='Name' value='Default Symbol'/>
+            <int name='SymbolType' value='0'/>
+            <text name='Text' value='A'/>
+        </folder>
+    </folder>
+    <bool name='PointAnnotations_Show' value='true'/>
+    <text name='PrimaryGridFilename' value='C:\data\GrandCanyon_2004\AirTourAudFiles\Finished_Grid_Files\DecentOutput.grd'/>
+    <int name='RotationCategory' value='0'/>
+    <float name='RotationCustomAngle' value='0'/>
+    <bool name='ShowContours' value='true'/>
+</registry>

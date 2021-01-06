@@ -1,0 +1,8 @@
+open
+C:\Users\DBetchkal\Desktop\NMSIM_2021\rnd\tempctl.nms
+site
+C:\Users\DBetchkal\Desktop\NMSIM_2014_local\Data\BAND002\Output_Data\SITE\test_delete
+dbf: no
+hrs: 0
+min: 0
+sec: 0.0
