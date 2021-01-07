@@ -213,7 +213,7 @@ def create_NMSIM_site_file(project_dir, unit, site, long_utm, lat_utm, height):
         site_file.write(glob.glob(project_dir + os.sep + r"Input_Data\01_ELEVATION\*.flt")[0]+"\n")
 
 
-def tracks_within(ds, site, year, search_within_km = 20, climb_ang_max = 20, aircraft_specs=False, clip=False, NMSIM_proj_dir=None):
+def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, aircraft_specs=False, clip=False, NMSIM_proj_dir=None, decouple=False):
     
     '''
     AN EVENTUAL DOCSTRING HERE
@@ -329,6 +329,11 @@ def tracks_within(ds, site, year, search_within_km = 20, climb_ang_max = 20, air
     # retrieve the start/end bounds and convert back to YYYY-MM-DD strings
     start, end = (dt.datetime.strftime(d, "%Y-%m-%d") for d in [NVSPL_dts.iloc[0], NVSPL_dts.iloc[-1]])
     print("\n\tRecord begins", start, "and ends", end, "\n")
+
+    # this decouples model development from acoustic measurements (but as a consequence invalidates the pairing functions)
+    if(decouple):
+        start = "2012-03-01"
+        end = dt.datetime.strftime(dt.datetime.now(), "%Y-%m-%d")
     
     # load tracks from the database over a certain daterange, using the buffered site
     tracks = query_tracks(connection_txt=os.path.join(RDS, "config\connection_info.txt"), 
