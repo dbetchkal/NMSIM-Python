@@ -296,7 +296,7 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
     schema = {'geometry': 'Polygon', 'properties': {'id': 'int'},}
 
     # where should the buffer be saved?
-    buffer_path = os.path.join(os.getcwd(), "site_buf.shp")
+    buffer_path = os.path.join(os.getcwd(), r"GIS\site_buf.shp")
 
     # write a new shapefile with the buffered polygon
     with fiona.open(buffer_path, 'w', 'ESRI Shapefile', schema, crs=from_epsg(4326)) as c:
@@ -392,12 +392,16 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
             # 1 if there is a match, 0 if not
             match_bool = NVSPL_dts.apply(lambda date: date in [check]).sum()
 
-            if(match_bool == 0):
+            if((match_bool == 0)&(not decouple)):
 
                 tracks = tracks[tracks["flight_id"] != f_id]
                 print("\t\t", "Flight starting", start, "has no matching acoustic record")
+                
 
-            elif(match_bool == 1):
+            elif((match_bool == 1)|(decouple)):
+            
+                if(decouple):
+                    print("\t\t", "Flight starting", start, "has no matching acoustic record. Proceeding by user override.")
 
                 # find the time at which the flight passes closest to the station
                 site_coords = np.array([long, lat])
