@@ -119,23 +119,32 @@ def climb_angle(v):
 
 def point_buffer(lat, lon, km):
     
-    wgs84 = pyproj.Proj(init='epsg:4326')
+    wgs84 = pyproj.Proj('epsg:4326')
 
     # Azimuthal equidistant projection
     aeqd_formatter = '+proj=aeqd +lat_0={lat} +lon_0={lon} +x_0=0 +y_0=0'
     aeqd = pyproj.Proj(aeqd_formatter.format(lat=lat, lon=lon))
-
+    
+    # set up two transformation objects
+    projector = pyproj.Transformer.from_proj('EPSG:4326', aeqd)
+    reprojector = pyproj.Transformer.from_proj(aeqd, 'EPSG:4326', always_xy=True)
+    
     # project the site coordinate into aeqd
-    long_m, lat_m = pyproj.transform(wgs84, aeqd, lon, lat)
+    long_m, lat_m = projector.transform(lat, lon)
 
     # buffer using a radius in meters
     buf_m = Point(long_m, lat_m).buffer(km * 1000)  # distance in metres
 
-    # this will convert polygons from aeqd back into wgs84
-    projector = partial(pyproj.transform, aeqd, wgs84)
-
-    buf = transform(projector, buf_m)  # apply projection
-
+    # convert the polygon from aeqd back into wgs84
+    # note that this uses both `shapely` and `pyproj`
+    buf_poly = transform(reprojector.transform, buf_m)  # apply projection
+    
+    # we'll return a geopandas GeoDataFrame instead of the Shapely Polygon
+    buf = gpd.GeoDataFrame(geometry=gpd.GeoSeries(buf_poly), crs="EPSG:4326")
+    
+    # but we also need to set the crs
+    buf.crs = "EPSG:4326"
+    
     return buf
 
 
@@ -268,12 +277,11 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
                    6:'epsg:26906', 7:'epsg:26907', 8:'epsg:26908', 9:'epsg:26909', 10:'epsg:26910'}
 
     # convert from D.d (WGS84) to meters (NAD83)
-    in_proj = pyproj.Proj(init='epsg:4326')
-    out_proj = pyproj.Proj(init=epsg_lookup[zone])
+    projector = pyproj.Transformer.from_crs('epsg:4326', epsg_lookup[zone])
 
     # convert into NMSIM's coordinate system
-    long, lat = pyproj.transform(in_proj, out_proj, long_in, lat_in)
-
+    long, lat = projector.transform(lat_in, long_in)
+    
 
     # ===== second part; mic height to feet, write NMSIM .sit file =====================
 
@@ -292,24 +300,10 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
     # create the buffer polygon
     buf = point_buffer(lat_in, long_in, search_within_km)  
 
-    # Define a polygon feature geometry with one attribute
-    schema = {'geometry': 'Polygon', 'properties': {'id': 'int'},}
-
-    # where should the buffer be saved?
-    buffer_path = os.path.join(os.getcwd(), r"GIS\site_buf.shp")
-
-    # write a new shapefile with the buffered polygon
-    with fiona.open(buffer_path, 'w', 'ESRI Shapefile', schema, crs=from_epsg(4326)) as c:
-        
-        ## If there are multiple geometries, put the "for" loop here
-        c.write({'geometry': mapping(buf),'properties': {'id': 0},})
-
-    print("\n\tShapefile containing " + str(search_within_km)+"km radius buffer has been written!")
-    
     # plot the buffer within the park boundary
-    gpd_buffer = gpd.read_file(buffer_path)
-    base = gpd_buffer.plot(color='white', edgecolor='black')
-    base.set_aspect(2)
+    base = buf.plot(color='white', edgecolor='black', zorder=-5)
+    gpd.GeoSeries(Point(long_in, lat_in)).plot(ax=base, color="green")
+    base.set_aspect(1.7)
     plt.show()
     
 
@@ -330,7 +324,8 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
     start, end = (dt.datetime.strftime(d, "%Y-%m-%d") for d in [NVSPL_dts.iloc[0], NVSPL_dts.iloc[-1]])
     print("\n\tRecord begins", start, "and ends", end, "\n")
 
-    # this decouples model development from acoustic measurements (but as a consequence invalidates the pairing functions)
+    # this decouples model development from acoustic measurements 
+    # (but as an obvious consequence, invalidates the pairing functions)
     if(decouple):
         start = "2012-03-01"
         end = dt.datetime.strftime(dt.datetime.now(), "%Y-%m-%d")
@@ -338,7 +333,7 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
     # load tracks from the database over a certain daterange, using the buffered site
     tracks = query_tracks(connection_txt=os.path.join(RDS, "config\connection_info.txt"), 
                           start_date=start, end_date=end, 
-                          mask=gpd_buffer, clip_output=clip,
+                          mask=buf, clip_output=clip,
                           aircraft_info=aircraft_specs)
     
     # make a dataframe to hold distances and times
@@ -353,7 +348,7 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
             data = data.sort_values("ak_datetime")
 
             # convert the GPS points from wgs84 to the correct UTM zone for the NMSIM elevation file
-            long_utm, lat_utm = pyproj.transform(in_proj, out_proj, data["longitude"].values, data["latitude"].values)
+            long_utm, lat_utm = projector.transform(data["latitude"].values, data["longitude"].values)
 
             # assign back into the dataframe for subsequent use
             data.loc[:, "long_UTM"] = long_utm
