@@ -1,0 +1,12 @@
+open
+C:\data\NPS\NMSimNord\rnd\tempctl.nms
+grid
+C:\Users\Bruce\Desktop\New folder (2)\NMSIM_LOGS\test2
+ii:  200
+set:   1 200
+jj:  200
+set:   1 200
+dbf: no
+hrs: 0
+min: 0
+sec: 0.0
