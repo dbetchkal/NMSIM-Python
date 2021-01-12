@@ -3,13 +3,11 @@
 #
 # NPS Natural Sounds Program
 #
-# Last updated: 2030 12 07
-#
 # This module is used to initialize a workspace for analyzing
 # the acoustic properties of overflights over Denali. These functions
 # rely on GPS points from the DENA database as an input. Their intention
-# is to produce a model using NMSIM, and then attempt to find the same 
-# event on the acoustic record.
+# is to produce a model using NMSIM. Given temporal correspondance, functions 
+# are also provided to compare modelled events with the acoustic record.
 #
 # In the future, we'd like to start using one (or both) of the acoustic
 # descriptions to actually summarize and/or compare impacts. 
@@ -72,7 +70,7 @@ RDS = r"\\inpdenards\overflights"
 
 try:
     sys.path.append(os.path.join(RDS, "scripts"))
-    from query_tracks import query_tracks
+    from query_tracks import query_tracks, get_mask_wkt
     
 except:
     print("While importing `query_tracks` encountered an error.")
@@ -106,7 +104,7 @@ def get_utm_zone(project_dir):
 def climb_angle(v):
     
     """
-    compute the 'climb angle' of a vector
+    Compute the 'climb angle' of a vector
     A = 𝑛•𝑏=|𝑛||𝑏|𝑠𝑖𝑛(𝜃)
     """
     
@@ -114,10 +112,25 @@ def climb_angle(v):
     n = np.array([0,0,1])
     
     degrees = np.degrees(np.arcsin( np.dot(n, v)/(np.linalg.norm(n)*np.linalg.norm(v))))
+
     return degrees
 
 
-def point_buffer(lat, lon, km):
+def point_buffer(lon, lat, km):
+
+    """
+    Given a radius in kilometers, create a circular buffer around a point.
+    
+    Inputs
+    ------
+    lon (float): longitude of the point (expected input as D.d, WGS84)
+    lat (float): latitude of the point (expected input as D.d, WGS84)
+    km (float): radius of the buffer in kilometers
+
+    Returns
+    -------
+    buf (geopandas GeoDataFrame): a circular buffer around the point (in WGS84)
+    """
     
     wgs84 = pyproj.Proj('epsg:4326')
 
@@ -140,7 +153,7 @@ def point_buffer(lat, lon, km):
     buf_poly = transform(reprojector.transform, buf_m)  # apply projection
     
     # we'll return a geopandas GeoDataFrame instead of the Shapely Polygon
-    buf = gpd.GeoDataFrame(geometry=gpd.GeoSeries(buf_poly), crs="EPSG:4326")
+    buf = gpd.GeoDataFrame(geometry=gpd.GeoSeries(buf_poly))
     
     # but we also need to set the crs
     buf.crs = "EPSG:4326"
@@ -222,11 +235,30 @@ def create_NMSIM_site_file(project_dir, unit, site, long_utm, lat_utm, height):
         site_file.write(glob.glob(project_dir + os.sep + r"Input_Data\01_ELEVATION\*.flt")[0]+"\n")
 
 
-def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, aircraft_specs=False, clip=False, NMSIM_proj_dir=None, decouple=False):
+def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, aircraft_specs=False, NMSIM_proj_dir=None, decouple=False):
     
     '''
-    AN EVENTUAL DOCSTRING HERE
+    Given a microphone location, load proximal GPS data from the Denali Overflights Database. 
+    Save each flight as an NMSIM trajectory file. Optionally, scrape aircraft statistics from the FAA website.
+
+    Inputs
+    ------
+    ds (iyore Dataset): 
+    site (str): 
+    year (int): 
+    search_within_km (float): [default of 25 km] 
+    climb_ang_max (float): the maximum climb angle one expects of aircraft [default of 20°]
+    aircraft_specs (bool): should additional aircraft make/model/powerplant data be scraped from the FAA website? [default False]
+    NMSIM_proj_dir (str, path): a user-specified output for trajectories - if None, trajectories are saved to a site's "Computational Outputs" folder.
+    decouple (bool): should all nearby tracks be loaded, not just those that correspond in time 
+                     with the microphone deployment? [default False]
+
+    Returns
+    -------
+    tracks (geopandas GeoDataFrame): a spatial table of GPS points corresponding to the site and year specified.
+
     '''
+
 
     unit = "DENA" # it always will be for this tool
 
@@ -266,7 +298,7 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
     # ===== first part; site coordinate wrangling =====================
     
     # load the metadata sheet
-    metadata = pd.read_csv(r"\\inpdenafiles\sound\Complete_Metadata_AKR_2001-2020.txt", 
+    metadata = pd.read_csv(r"\\inpdenafiles\sound\Complete_Metadata_AKR_2001-2021.txt", 
                            delimiter="\t", encoding = "ISO-8859-1")
 
     # look up the site's coordinates in WGS84
@@ -298,12 +330,12 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
     # ===== third part; save mask file using the buffer radius of choice ===============
 
     # create the buffer polygon
-    buf = point_buffer(lat_in, long_in, search_within_km)  
+    buf = point_buffer(long_in, lat_in, search_within_km)  
 
     # plot the buffer within the park boundary
     base = buf.plot(color='white', edgecolor='black', zorder=-5)
     gpd.GeoSeries(Point(long_in, lat_in)).plot(ax=base, color="green")
-    base.set_aspect(1.7)
+    base.set_aspect(1.9)
     plt.show()
     
 
@@ -322,20 +354,20 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
 
     # retrieve the start/end bounds and convert back to YYYY-MM-DD strings
     start, end = (dt.datetime.strftime(d, "%Y-%m-%d") for d in [NVSPL_dts.iloc[0], NVSPL_dts.iloc[-1]])
-    print("\n\tRecord begins", start, "and ends", end, "\n")
 
     # this decouples model development from acoustic measurements 
     # (but as an obvious consequence, invalidates the pairing functions)
     if(decouple):
-        start = "2012-03-01"
+        start = "2012-05-01"
         end = dt.datetime.strftime(dt.datetime.now(), "%Y-%m-%d")
     
+    print("\n\tSearching from", start, "and ends", end, "\n")
+
     # load tracks from the database over a certain daterange, using the buffered site
     tracks = query_tracks(connection_txt=os.path.join(RDS, "config\connection_info.txt"), 
-                          start_date=start, end_date=end, 
-                          mask=buf, clip_output=clip,
+                          start_date=start, end_date=end, mask=buf, 
                           aircraft_info=aircraft_specs)
-    
+
     # make a dataframe to hold distances and times
     closest_approaches = pd.DataFrame([], index=np.unique(tracks["id"]), columns=["closest_distance", "closest_time"])
     
@@ -490,8 +522,8 @@ def tracks_within(ds, site, year, search_within_km = 25, climb_ang_max = 20, air
                     print("\t\t\t", "Densification complete, writing trajectory file...")
 
                     # add N-number and begin time
-                    start_time = dt.datetime.strftime(data["utc_datetime"].min(), "%Y-%m-%d %H:%M:%S")
-                    file_name_dt = dt.datetime.strftime(data["utc_datetime"].min(), "_%Y%m%d_%H%M%S")
+                    start_time = dt.datetime.strftime(data["utc_datetime"].min(skipna=True), "%Y-%m-%d %H:%M:%S")
+                    file_name_dt = dt.datetime.strftime(data["utc_datetime"].min(skipna=True), "_%Y%m%d_%H%M%S")
                     N_number = data["registration"].iloc[0]
 
                     # path to the specific .trj file to be written
@@ -570,10 +602,12 @@ def NMSIM_create_tis(project_dir, source_path, Nnumber=None, NMSIMpath=None):
     
     Inputs
     ------
+    project_dir (str, path): the location of a canonical NMSIM project directory, created with "Create_Base_Layers.py"
+    source_path (str, path): the location of the relevant NMSIM noise source file (.src)
+    NMSIMpath (str, path): [optional] an alternate location of the program `Nord2000batch.exe`
     
     Returns
     -------
-    
     None
     
     '''
@@ -624,9 +658,12 @@ def NMSIM_create_tis(project_dir, source_path, Nnumber=None, NMSIMpath=None):
     
     if(NMSIMpath == None):
         
-        # assume that the project folder is in "..\NMSIM_2014\Data"
-        # and look for Nord2000batch.exe two directories up
-        Nord = os.path.dirname(os.path.dirname(project_dir)) + os.sep + "Nord2000batch.exe"
+        # NMSIM is packaged right along with these scripts
+        # so by default we look for `Nord2000batch.exe` relative to this file
+        this_file = os.path.abspath(__file__)
+        one_dir_up = os.path.dirname(this_file)
+
+        Nord = one_dir_up + os.sep + r"NMSIM\Nord2000batch.exe"
         
     else:
         
