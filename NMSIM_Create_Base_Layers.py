@@ -12,6 +12,7 @@ import arcpy
 
 
 def make(path):
+
     """
     Safely create a folder
     """
@@ -125,11 +126,29 @@ def create_baselayers(alphaCode, studyArea, projectDir, raster_folder):
 		print(DEM_path)
 
 	except:
-		print("The correct DEM could not be found for this unit. Please check:\n(1) DEM files in your NMSIM folder in a subfolder called 'NPS_DEM'\n(2) 'NPS_Unit_to_DEM.csv' is in the same directory as this script.")
+		msg1 = arcpy.AddMessage("The correct DEM could not be found for this unit. Please check:\n(1) DEM files in your NMSIM folder in a subfolder called 'NPS_DEM'\n(2) 'NPS_Unit_to_DEM.csv' is in the same directory as this script.")
 
 
 	# NMSIM uses the following spatial reference: GCS_North_American_1983; WKID: 4269
 	SR = arcpy.SpatialReference(4269)
+
+	# try making the project directory
+	try:
+		make_NMSIM_project_dir(projectDir)
+
+	except: 
+		# might fail if the directory already exists
+		msg2 = arcpy.AddMessage("Uh oh the function `make_NMSIM_project_dir` encountered an error!")
+
+	# from now on, we'll store UTM zone information in the filenames
+	# look up the UTM zone that NMSIM will use for this study area
+	try:
+		UTM_zone = find_UTM_zone(studyArea)
+
+		msg3 = arcpy.AddMessage("NMSIM will use UTM Zone", UTM_zone)
+
+	except:
+		msg4 = arcpy.AddMessage("Uh oh the function `find_UTM_zone` encountered an error!")
 
 	# clip elevation data
 	dem_clip = arcpy.Clip_management(in_raster=DEM_path, 
@@ -140,34 +159,16 @@ def create_baselayers(alphaCode, studyArea, projectDir, raster_folder):
 									clipping_geometry="ClippingGeometry", 
 									maintain_clipping_extent="NO_MAINTAIN_EXTENT")
 
-	# project the elevation data
-	dem_proj = arcpy.ProjectRaster_management(dem_clip, "NMSIM_DEM_proj", SR)
-
-	# try making the project directory
-	try:
-		make_NMSIM_project_dir(projectDir)
-
-	except: 
-		# might fail if the directory already exists
-		print("Uh oh the function `make_NMSIM_project_dir` encountered an error!")
-
-	# from now on, we'll store UTM zone information in the filenames
-	# look up the UTM zone that NMSIM will use for this study area
-	try:
-		UTM_zone = find_UTM_zone(studyArea)
-
-		print("NMSIM will use UTM Zone", UTM_zone)
-
-	except:
-		print("Uh oh the function `find_UTM_zone` encountered an error!")
-
 	# combine all the elements to make the elevation gridfloat file's path
-	elevPath = projectDir + os.sep + r"Input_Data\01_ELEVATION" + os.sep + "elevation_nad83_utm" + str(UTM_zone) + ".flt"
+	elevPath = projectDir + os.sep + r"Input_Data\01_ELEVATION" + os.sep + "elevation_nad83_utm" + str(UTM_zone) 
+
+	# project the elevation data, save it to the project directory as a raster
+	dem_proj = arcpy.ProjectRaster_management(dem_clip, elevPath+".tif", SR)
 
 	# convert the elevation raster to grid float, as NMSIM needs
-	arcpy.RasterToFloat_conversion(dem_proj, elevPath)
+	arcpy.RasterToFloat_conversion(dem_proj, elevPath+".flt")
 
-	print("Saved gridfloat file successfully.")
+	msg5 = arcpy.AddMessage("Saved gridfloat file successfully.")
 
 
 # ---------------------------------------------------
