@@ -62,13 +62,13 @@ Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) invol
 -	**Study Area polygon** (.shp)
 -	**Sound source data** represented in the form of one-to-many sound hemispheres (.avg) and their operational metadata (.src) mapped along a control [read: ‘power’] parameter. 
 -	**Elevation rasters** (16-bit .tif) large regional-scale rasters clipped to within 20 km of park boundaries.
-~~-	**Impedance raster** (16-bit .tif)~~ *not implemented!*
+- ~~**Impedance raster** (16-bit .tif)~~ *not implemented!*
 -	*OPTIONAL* **GPS points** for creation of flight (or ground) trajectories. The alternative is to use NMSIM’s built-in `FlightTrackBuilder.exe` module, which is geometrically arcane (and therefore extremely tedious.)
  
 ### Intermediary Inputs [as facilitated by this library]
 -	**Standardized project directory** (or a blank project directory).
 -	**Focused elevation raster** (.flt, but also importantly .tif) clipped from wider extent. The grid float file (.flt) will be ingested by NMSIM. The geotiff raster (.tif) is used in scenarios where external GPS data or other covariates are included in the model. Regardless, it is always created for mapping convenience.
-~~- **Focused impedance raster** (.flt)~~ *not implemented!*
+- ~~**Focused impedance raster** (.flt)~~ *not implemented!*
 -	**Trajectory** [read: ‘source’ position] (.trj) which can be from a previously-constructed file or generated from GPS coordinates + elevation raster.
 -	-	**Site file** [read: ‘receiver’] (.sit) microphone/observer position from coordinates.
 -	**Source files** [read: ‘source’ acoustic properties] (.avg, .src) hemispherical spectral sources and their associated metadata. NOTE: ISN'T SHOWN ON FIGURE 1.
