@@ -58,29 +58,30 @@ Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) invol
 
 ### User-Provided Inputs
 -	**NPS Unit Information**: the 4-letter alpha code for the park unit in question can provide a quick reference for looking up larger rasters. It also provides a handy lookup for administrative metadata used in automatic labelling/titles/filenames.
-- **Site metadata**: coordinates (WGS84), microphone height (m)
--	**Study Area polygon** (.shp)
+- **Site metadata**: microphone/observer coordinates (WGS84), microphone/observer height (meters).
+-	**Study Area polygon** (*.shp*) usually rectangular, but can be any shape.
 -	**Sound source data** represented in the form of one-to-many sound hemispheres (.avg) and their operational metadata (.src) mapped along a control [read: ‘power’] parameter. 
--	**Elevation rasters** (16-bit .tif) large regional-scale rasters clipped to within 20 km of park boundaries.
+-	**Elevation rasters** (16-bit *.tif*) large regional-scale rasters clipped to within 20 km of park boundaries.
 - ~~**Impedance raster** (16-bit .tif)~~ *not implemented!*
 -	*OPTIONAL* **GPS points** for creation of flight (or ground) trajectories. The alternative is to use NMSIM’s built-in `FlightTrackBuilder.exe` module, which is geometrically arcane (and therefore extremely tedious.)
  
 ### Intermediary Inputs [as facilitated by this library]
 -	**Standardized project directory** (or a blank project directory).
--	**Focused elevation raster** (.flt, but also importantly .tif) clipped from wider extent. The grid float file (.flt) will be ingested by NMSIM. The geotiff raster (.tif) is used in scenarios where external GPS data or other covariates are included in the model. Regardless, it is always created for mapping convenience.
+-	**Focused elevation raster** (*.flt*, but also importantly *.tif*) clipped from wider extent. The grid float file (*.flt*) will be ingested by NMSIM. The geotiff raster (*.tif*) is used in scenarios where external GPS data or other covariates are included in the model. Regardless, it is always created for mapping convenience.
 - ~~**Focused impedance raster** (.flt)~~ *not implemented!*
--	**Trajectory** [read: ‘source’ position] (.trj) which can be from a previously-constructed file or generated from GPS coordinates + elevation raster.
--	-	**Site file** [read: ‘receiver’] (.sit) microphone/observer position from coordinates.
--	**Source files** [read: ‘source’ acoustic properties] (.avg, .src) hemispherical spectral sources and their associated metadata. NOTE: ISN'T SHOWN ON FIGURE 1.
--	**Control file** (.nms) which integrates all inputs.
--	**Batch file** (.txt) which allows the model to be run from the Command Line Interface (CLI) program.
--	*OPTIONAL* **Weather file** (.wea) overrides the standard weather parameters prescribed by [ISO 9613-2:1996](https://www.iso.org/standard/20649.html) which is useful for studying inversions, wind shear, turbulence or other atmospheric effects.
+-	**Trajectory** [read: ‘source positions'] (*.trj*) which can be from a previously-constructed file or generated from GPS coordinates + elevation raster.
+-	**Site file** [read: ‘receiver’] (*.sit*) microphone/observer position from coordinates and height.
+-	**Source files** [read: ‘source’ acoustic properties] (*.avg*, *.src*) hemispherical spectral sources and their associated metadata. NOTE: ISN'T SHOWN ON FIGURE 1.
+-	**Control file** (*.nms*) which integrates all NMSIM inputs.
+-	**Batch file** (*.txt*) which allows the model to be run from the Command Line Interface (CLI) program.
+-	*OPTIONAL* **Weather file** (*.wea*) overrides the standard weather parameters prescribed by [ISO 9613-2:1996](https://www.iso.org/standard/20649.html) which is useful for studying inversions, wind shear, turbulence or other atmospheric effects.
 
 ### Outputs
--	**Site-based Model** [read: 3D spectrogram representation] (.tis) from control file. One use of these data are to time-align model spectrograms with GPS data or acoustic measurements. Further description is outside of the scope of this README, but it represents an obvious experimental need for validation of field studies or compliance efforts.
+-	**Site-based Model** [read: 3D spectrogram representation] (*.tis*) resulting from control file. One use of these data could be time-aligning model spectrograms with GPS data or acoustic measurements. Further description is outside of the scope of this README, but site-based models provide a much-needed recourse for the validation of field studies or compliance efforts.
 
--	**Grid-based Model** [read: 4D spectral raster representation] (.tig) from control file. Reducing the dimensionality of the 4D spectral raster into a 2D metric raster is required for mapping (or pretty much any) purpose. It is a similar process to summarizing any one-third octave band acoustic record. 
+-	**Grid-based Model** [read: 4D spectral raster representation] (*.tig*) resulting from control file. Reducing the dimensionality of the 4D spectral raster into a 2D metric raster is required for mapping (or basically any) purpose. Dimensionality reduction is identical to summarizing any one-third octave band acoustic time-series record with a simpler metric. 
 
+---
 
 ## Site-Based Paradigm Example
 
