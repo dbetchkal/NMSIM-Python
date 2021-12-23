@@ -40,7 +40,7 @@ You can think of `NMSIM-Python` as an “exploded view” of the modelling proce
 
 True batching (i.e., flexible compilation of batch files) should also be implemented, but currently isn’t. Batching isn’t purposeful for models containing sequences of isolated events, but as soon as overlapping events feature in a simulation batching *is required.* However, a batching routine would subsume the `NMSIM` Class, so writing it will have to wait until the class is available first!
 
-Another (quite different) purpose involves records retention for models used in planning or compliance processes. It would be ideal to allow public models to be publicly available along with the documents where they feature prominently. Presumably this suggests that model objects should be able to be stored in memory for future reuse (i.e., as a `pickle` or other filetype).
+Another (quite different) purpose involves records retention for models used in planning or compliance processes. It would be ideal to allow public models to be publicly available alongside the documents where they feature prominently. Presumably this suggests that model objects should be able to be stored in memory for future reuse (i.e., as a `pickle` or other filetype).
 
 Note: `NMSIM-Python` is a library in active development and therefore should be considered an unstable tool. For the same reason it would greatly benefit from the contributions of open-source programmers. It could also benefit from curious physicists/geographers/ecologists who have an interest in software testing and application.
 
