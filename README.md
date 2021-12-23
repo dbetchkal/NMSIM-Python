@@ -20,8 +20,8 @@ A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of
 
 ## Purpose
 
->“The Purpose of a System is What it Does.”
->-- Stafford Beer
+>*“The Purpose of a System is What it Does.”*
+>-- Stafford Beer, 2001
 
 This repository provides a scripting toolkit for the development of acoustic propagation models with [Noise Model Simulation (NMSIM) software](https://www.blueridgeresearch.com/noise-models). At request of the National Park Service, NMSIM was updated in 2014 to use the [Nord2000 propagation algorithm](https://forcetechnology.com/en/innovation/completed-projects/nord2000-noise-calculation-method-auralisation), *"an advanced ray-tracing noise model that includes refraction by the atmosphere and diffraction around terrain."* The motivating factor of this current work is to sidestep NMSIM's arcane Graphical User Interface (GUI) while continuing to leverage Nord2000's extensive functionality, [standardization](https://www.iso.org/standard/20649.html), speed, and physical accuracy.
 
