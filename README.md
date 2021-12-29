@@ -10,9 +10,7 @@ A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of
   - [Outputs](###Outputs)
 - [Site-Based Paradigm Example](##Site-Based-Paradigm-Example)
   - [1. Initialize an NMSIM project from study area](###1-initialize)
-  - [2. Create a site file (.sit) from metadata](###2-
-  
-  ver)
+  - [2. Create a site file (.sit) from metadata](###2-receiver)
   - [3. Create flight trajectory (.trj) from the overflights database](###3-path)
   - [4. Compile model to create site-specific analysis (.tis)](###4-putting-it-all-together)
   - [5. Review the results by comparing to acoustic measurements](###5-comparing-theory-to-obs)
