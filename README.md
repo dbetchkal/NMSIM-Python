@@ -10,7 +10,9 @@ A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of
   - [Outputs](###Outputs)
 - [Site-Based Paradigm Example](##Site-Based-Paradigm-Example)
   - [1. Initialize an NMSIM project from study area](###1-initialize)
-  - [2. Create a site file (.sit) from metadata](###2-reciever)
+  - [2. Create a site file (.sit) from metadata](###2-
+  
+  ver)
   - [3. Create flight trajectory (.trj) from the overflights database](###3-path)
   - [4. Compile model to create site-specific analysis (.tis)](###4-putting-it-all-together)
   - [5. Review the results by comparing to acoustic measurements](###5-comparing-theory-to-obs)
@@ -23,9 +25,9 @@ A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of
 >*“The Purpose of a System is What it Does.”*
 >-- Stafford Beer, 2001
 
-This repository provides a scripting toolkit for the development of acoustic propagation models with [Noise Model Simulation (NMSIM) software](https://www.blueridgeresearch.com/noise-models). At request of the National Park Service, NMSIM was updated in 2014 to use the [Nord2000 propagation algorithm](https://forcetechnology.com/en/innovation/completed-projects/nord2000-noise-calculation-method-auralisation), *"an advanced ray-tracing noise model that includes refraction by the atmosphere and diffraction around terrain."* The motivating factor of this current work is to sidestep NMSIM's arcane Graphical User Interface (GUI) while continuing to leverage Nord2000's extensive functionality, [standardization](https://www.iso.org/standard/20649.html), speed, and physical accuracy.
+This repository provides a scripting toolkit for the development of acoustic propagation models with [Noise Model Simulation (NMSIM) software](https://www.blueridgeresearch.com/noise-models). At request of the National Park Service, NMSIM was updated in 2014 to use the [Nord2000 propagation algorithm](https://forcetechnology.com/en/innovation/completed-projects/nord2000-noise-calculation-method-auralisation), *"an advanced ray-tracing noise model that includes refraction by the atmosphere and diffraction around terrain."* The primary purpose of `NMSIM-Python` is to sidestep NMSIM's arcane Graphical User Interface (GUI) while continuing to leverage Nord2000's extensive functionality, [standardization](https://www.iso.org/standard/20649.html), speed, and physical accuracy.
 
-The eventual goal of `NMSIM-Python` is to provide an overarching `NMSIM` class corresponding to the **Control File** (see Figure 1, *.nms*) within which the parameters for a model scenario are described. Inter-related modelling scenarios could then be implemented gracefully with a `NMSIM` object. By a series of minor modifications, a specific sequence of predictions could be generated. Such a tool would enable iteration over whichever dimension(s) of a civic problem are in question (e.g., properties of the noise source, trajectory, reciever location, etc...) Such focus could greatly expedite mitigation work, ground-truthing or experiments in perception. 
+The eventual goal of `NMSIM-Python` is to provide an overarching `NMSIM` class corresponding to the **Control File** (see Figure 1, *.nms*) which describes the parameters for an acoustic propagation model scenario. In this vision, a `NMSIM` object allows the user to gracefully implement inter-related modelling scenarios. By modifying input parameters, users can generate a specific sequence of acoustic propagation predictions. Such a tool enables the user to iterate over whichever dimension(s) of a civic problem are in question (e.g., properties of the noise source, trajectory, receiver location, etc.). Such focus could greatly expedite mitigation work, ground-truthing or experiments in perception. 
 
 For now, though, this repository exists only as:
 
@@ -33,16 +35,14 @@ For now, though, this repository exists only as:
 >a few select `Jupyter` notebooks <br>
 >an `arcpy` toolbox meant for use with ArcGIS Pro <br>
 
-You can think of `NMSIM-Python` as an “exploded view” of the modelling process, with functions to actualize each *input*, *intermediary*, or *output* filetype used by the software (Figure 1). Current design favors scripters working in a project-driven, maximally-flexible environment. The `Jupyter` notebooks demonstrate this style of flexible use *[note: they are only truly functional for National Park Service employees due to data-sharing issues. Please contact me if you would like to try them - I can figure out how to send you the appropriate data.]* For a deeper dive, interested readers are directed towards [Kirby Heck's work with `DENA-overflights`](https://github.com/dbetchkal/DENA-overflights) as a rich example of `NMSIM-Python` in use. 
+You can think of `NMSIM-Python` as an “exploded view” of the modelling process, with functions to actualize each *input*, *intermediary*, or *output* filetype used by the software (Figure 1). Current design favors scripters working in a project-driven, maximally-flexible environment. The `Jupyter` notebooks demonstrate this style of flexible use *[note: they are only truly functional for National Park Service employees due to data-sharing issues. Please contact me if you would like to try them - I can figure out how to send you the appropriate data.]* For a rich example of `NMSIM-Python` in use, see [Kirby Heck's work with `DENA-overflights`](https://github.com/dbetchkal/DENA-overflights). 
 
 <img src=https://github.com/dbetchkal/NMSIM-Python/blob/main/static/2021%2012%2022%20NMSIM-Python_flow.png  align=center width=700></img><br>
-*Figure 1.) An "exploded view" the NMSIM modelling process as an information flow graph. The fundemental architecture is colored in blue. Useful output types are colored in amber, their respective raw NMSIM outputs in yellow, and input or intermediary file types in beige. Jupyter notebooks are green. Arcpy toolboxes are red.*
+*Figure 1.) An "exploded view" the NMSIM modelling process as an information flow graph. The fundamental architecture is colored in blue. Useful output types are colored in amber, their respective raw NMSIM outputs in yellow, and input or intermediary file types in beige. Jupyter notebooks are green. Arcpy toolboxes are red.*
 
-True batching (i.e., flexible compilation of batch files) should also be implemented, but currently isn’t. Batching isn’t purposeful for models containing sequences of isolated events, but as soon as overlapping events feature in a simulation batching *is required.* However, a batching routine would subsume the `NMSIM` Class, so writing it will have to wait until the class is available first!
+The second purpose of `NMSIM-Python` is to promote records retention for models used in planning or compliance processes. Ideally, public models are publicly available alongside the documents that implement them. Thus, `NMSIM-Python` aims to support the storage of model objects for future reuse (i.e., as a `pickle` or other filetype).
 
-Another (quite different) purpose involves records retention for models used in planning or compliance processes. It would be ideal to allow public models to be publicly available alongside the documents where they feature prominently. Presumably this suggests that model objects should be able to be stored in memory for future reuse (i.e., as a `pickle` or other filetype).
-
-Note: `NMSIM-Python` is a library in active development and therefore should be considered an unstable tool. For the same reason it would greatly benefit from the contributions of open-source programmers. It could also benefit from curious physicists/geographers/ecologists who have an interest in software testing and application.
+Note: `NMSIM-Python` is a library in active development and therefore should be considered an unstable tool. For the same reason it would greatly benefit from the contributions of open-source programmers. It could also benefit from curious physicists/geographers/ecologists who have an interest in software testing and application. True batching (i.e., flexible compilation of batch files) should also be implemented, but currently isn’t. Batching isn’t purposeful for models containing sequences of isolated events, but as soon as overlapping events feature in a simulation batching *is required.* However, a batching routine would subsume the `NMSIM` Class, so writing it will have to wait until the class is available first!
 
 ---
 
@@ -54,7 +54,7 @@ NMSIM models represent three coupled systems:
 >away from sound sources (which may or may not be in motion)<br>
 >and the sound waves eventually arrive at various locations (where an observer may or may not be present)
 
-Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) involved - and also considering the RAM-limited era that NMSIM was originally developed in - there are lots of files required to operate the software. This section attempts to provide a brief list of every file type shown in Figure 1. Such knowledge is key to scripting in `NMSIM-Python` as well as understanding limitations of the toolkit.
+Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) involved -- and the RAM-limited era in which NMSIM was originally developed -- there are lots of files required to operate the software. This section attempts to provide a brief list of every file type shown in Figure 1. Such knowledge is key to scripting in `NMSIM-Python` as well as understanding limitations of the toolkit.
 
 ### User-Provided Inputs
 -	**NPS Unit Information**: the 4-letter alpha code for the park unit in question can provide a quick reference for looking up larger rasters. It also provides a handy lookup for administrative metadata used in automatic labelling/titles/filenames.
@@ -85,11 +85,11 @@ Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) invol
 
 ## Site-Based Paradigm Example
 
-The following section demonstrates use of `NMSIM-Python` to model within a site-based paradigm. In this example there is a single reciever which 'observes' the acoustic morphology of a propeller aircraft as it transits the landscape along a specific trajectory. The model results in a spectrogram (i.e., 2D representation of sound in time and frequency.)
+The following section demonstrates use of `NMSIM-Python` to model within a site-based paradigm. In this example there is a single receiver which 'observes' the acoustic morphology of a propeller aircraft as it transits the landscape along a specific trajectory. The model results in a spectrogram (i.e., 2D representation of sound in time and frequency).
 
 
 
-<img src=https://github.com/dbetchkal/NMSIM-Python/blob/pyproj_1p9/static/2020%2010%2022%20NMSIM%20source%20improvement%20schema.png width=700><br> *Figure 2.) NMSIM modelling via a site-based paradigm. Like Figure 1, the process is represented as an information flow graph. User-based inputs are shown as green arrows on the left margin. These lead to intermediary inputs, which are finally organized together into the fundemental NMSIM Control File for this model. In turn, the Control File is referenced by the Batch File, which is ultimately used by NMSIM.* 
+<img src=https://github.com/dbetchkal/NMSIM-Python/blob/pyproj_1p9/static/2020%2010%2022%20NMSIM%20source%20improvement%20schema.png width=700><br> *Figure 2.) NMSIM modelling via a site-based paradigm. Like Figure 1, the process is represented as an information flow graph. User-based inputs are shown as green arrows on the left margin. These lead to intermediary inputs, which are finally organized together into the fundamental NMSIM Control File for this model. In turn, the Control File is referenced by the Batch File, which is ultimately used by NMSIM.* 
 
 ### 1. Initialize an NMSIM project from study area
 ### 2. Create a site file (.sit) from metadata
