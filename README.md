@@ -48,9 +48,9 @@ Note: `NMSIM-Python` is a library in active development and therefore should be 
 
 NMSIM models represent three coupled systems: 
 
->**(1)** the **landscape and atmosphere** which
->**(2)** **noise sources** move over/through
->**(3)** apprehended by **the ear** that hears: be in animal, human, or metal
+>**(1)** the **landscape and atmosphere** which <br>
+>**(2)** **noise sources** move over/through <br>
+>**(3)** apprehended by **the ear** that hears: be in animal, human, or metal <br>
 
 Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) involved -- and the RAM-limited era in which NMSIM was originally developed -- there are lots of files required to operate the software. This section attempts to provide a brief list of every file type shown in Figure 1. Such knowledge is key to scripting in `NMSIM-Python` as well as understanding limitations of the toolkit.
 
