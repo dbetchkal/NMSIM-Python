@@ -23,15 +23,15 @@ A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of
 >*“The Purpose of a System is What it Does.”*
 >-- Stafford Beer, 2001
 
-This repository provides a scripting toolkit for the development of acoustic propagation models with [Noise Model Simulation (NMSIM) software](https://www.blueridgeresearch.com/noise-models). At request of the National Park Service, NMSIM was updated in 2014 to use the [Nord2000 propagation algorithm](https://forcetechnology.com/en/innovation/completed-projects/nord2000-noise-calculation-method-auralisation), *"an advanced ray-tracing noise model that includes refraction by the atmosphere and diffraction around terrain."* The primary purpose of `NMSIM-Python` is to sidestep NMSIM's arcane Graphical User Interface (GUI) while continuing to leverage Nord2000's extensive functionality, [standardization](https://www.iso.org/standard/20649.html), speed, and physical accuracy.
+This repository provides a scripting toolkit for the development of acoustic propagation models with [Noise Model Simulation (NMSIM) software](https://www.blueridgeresearch.com/noise-models). At the request of the National Park Service, NMSIM was updated in 2014 to use the [Nord2000 propagation algorithm](https://forcetechnology.com/en/innovation/completed-projects/nord2000-noise-calculation-method-auralisation), *"an advanced ray-tracing noise model that includes refraction by the atmosphere and diffraction around terrain."* The primary purpose of `NMSIM-Python` is to sidestep NMSIM's arcane Graphical User Interface (GUI) while continuing to leverage Nord2000's extensive functionality, [standardization](https://www.iso.org/standard/20649.html), speed, and physical accuracy.
 
 The eventual goal of `NMSIM-Python` is to provide an overarching `NMSIM` class corresponding to the **Control File** (see Figure 1, *.nms*) which describes the parameters for an acoustic propagation model scenario. In this vision, a `NMSIM` object allows the user to gracefully implement inter-related modelling scenarios. By modifying input parameters, users can generate a specific sequence of acoustic propagation predictions. Such a tool enables the user to iterate over whichever dimension(s) of a civic problem are in question (e.g., properties of the noise source, trajectory, receiver location, etc.). Such focus could greatly expedite mitigation work, ground-truthing or experiments in perception. 
 
 For now, though, this repository exists only as:
 
->a set of loosely-connected python modules <br>
->a few select `Jupyter` notebooks <br>
->an `arcpy` toolbox meant for use with ArcGIS Pro <br>
+>**(1)** a set of loosely-connected python modules <br>
+>**(2)** a few select `Jupyter` notebooks <br>
+>**(3)** an `arcpy` toolbox meant for use with ArcGIS Pro <br>
 
 You can think of `NMSIM-Python` as an “exploded view” of the modelling process, with functions to actualize each *input*, *intermediary*, or *output* filetype used by the software (Figure 1). Current design favors scripters working in a project-driven, maximally-flexible environment. The `Jupyter` notebooks demonstrate this style of flexible use *[note: they are only truly functional for National Park Service employees due to data-sharing issues. Please contact me if you would like to try them - I can figure out how to send you the appropriate data.]* For a rich example of `NMSIM-Python` in use, see [Kirby Heck's work with `DENA-overflights`](https://github.com/dbetchkal/DENA-overflights). 
 
@@ -85,11 +85,14 @@ Considering the [multiphysics](https://en.wikipedia.org/wiki/Multiphysics) invol
 
 The following section demonstrates use of `NMSIM-Python` to model within a site-based paradigm. In this example there is a single receiver which 'observes' the acoustic morphology of a propeller aircraft as it transits the landscape along a specific trajectory. The model results in a spectrogram (i.e., 2D representation of sound in time and frequency).
 
-
-
 <img src=https://github.com/dbetchkal/NMSIM-Python/blob/pyproj_1p9/static/2020%2010%2022%20NMSIM%20source%20improvement%20schema.png width=700><br> *Figure 2.) NMSIM modelling via a site-based paradigm. Like Figure 1, the process is represented as an information flow graph. User-based inputs are shown as green arrows on the left margin. These lead to intermediary inputs, which are finally organized together into the fundamental NMSIM Control File for this model. In turn, the Control File is referenced by the Batch File, which is ultimately used by NMSIM.* 
 
 ### 1. Initialize an NMSIM project from study area
+
+```
+
+```
+
 ### 2. Create a site file (.sit) from metadata
 ### 3. Create flight trajectory (.trj) from the overflights database
 ### 4. Compile model to create site-specific analysis (.tis)
